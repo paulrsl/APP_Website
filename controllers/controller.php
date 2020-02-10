@@ -1,13 +1,12 @@
 <?php
 
-	require "models/model.php";
+    require "models/model.php";
 
 	function connection(){
 		require "views/connection.php";
 	}
 	
 	function home(){
-        $users = getUsers()->fetchAll();
 		require "views/home.php";
 	}
 	
@@ -17,6 +16,11 @@
 
 	function forgotPassword(){
 	    require "views/forgotPassword.php";
+    }
+
+    function createDB(){
+        create_DB();
+	    require "views/connection.php";
     }
 
     function addUser() {
@@ -41,7 +45,25 @@
 
     function tryConnection(){
 	   if($_POST["mail"] && $_POST["password"]){
-            echo 'here';
-       }
+	       $mailConnection = htmlspecialchars($_POST["mail"]);
+           $passwordConnection = htmlspecialchars($_POST["password"]);
+
+           $users = getUsersConnection()->fetchAll();
+
+           $connection = true;
+           foreach ($users as $user) {
+               if($mailConnection == $user["mail"] && $passwordConnection == $user["password"]){
+                   echo $user["id"];
+                   require "views/home.php";
+                   $connection = false;
+                   break;
+               }
+           }
+           if($connection){
+               echo "Mail ou mot de passe incorrect !";
+               require "views/connection.php";
+           }
+       } else {
+    require "views/home.php";
+	   }
     }
-?>

@@ -17,6 +17,8 @@
             case "add_user" : addUser(); break;
 
             case "try_connection" : tryConnection(); break;
+
+            case "createDB" : createDB(); break;
 						
 		}
 	}

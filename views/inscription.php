@@ -11,10 +11,9 @@
 </head>
 
 <body>
+<h1>Inscription</h1>
 
         <form method="post" action="index.php?page=add_user" enctype="multipart/form-data">
-
-        <h1>Inscription</h1>
 
         <p>
             <label>Name :<br>

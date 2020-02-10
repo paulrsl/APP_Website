@@ -14,7 +14,7 @@
 
     <h1>Welcome to the BIG-MAP website</h1>
 
-    <form method="post" action="../index.php?page=home">
+    <form method="post" action="index.php?page=try_connection">
         <h2>Connection :</h2>
         <p>
             <label>Mail :<br>
@@ -35,6 +35,8 @@
     <p><a href="index.php?page=forgotPassword">Forgot password ?</a></p>
 
     <a href="index.php?page=inscription">Inscription</a></br>
+
+    <a href="index.php?page=createDB">Creation BDD</a>
 
     <script src="/APP_Website/design/JavaScript/connectionJS.js"></script>
 

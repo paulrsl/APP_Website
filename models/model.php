@@ -9,6 +9,12 @@
         }
     }
 
+    function create_DB(){
+        $db = dbConnect();
+        $req = $db->prepare("CREATE TABLE users (id INT PRIMARY KEY AUTO_INCREMENT, picture VARCHAR(255) DEFAULT 'defaultPicture.jpg', name VARCHAR(255), surname VARCHAR(255), mail VARCHAR(255), birthdate DATE, password VARCHAR(255))");
+        $req->execute();
+    }
+
     function insertUser($picture, $name, $surname, $mail, $birthdate, $password){
         $db = dbConnect();
         $target = "pictures/" . $picture;
@@ -34,4 +40,10 @@
         return $req;
     }
 
-?>
+    function getUsersConnection(){
+        $db = dbConnect();
+        $req = $db->query("SELECT id,mail,password FROM users");
+
+        return $req;
+    }
+

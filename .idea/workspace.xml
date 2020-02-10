@@ -47,6 +47,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="controller.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/APP_Website/controllers/controller.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.controller.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -79,6 +89,9 @@
       <workItem from="1580806036689" duration="6023000" />
       <workItem from="1580896830354" duration="6496000" />
       <workItem from="1581063994661" duration="5176000" />
+      <workItem from="1581256641358" duration="7213000" />
+      <workItem from="1581264204773" duration="1245000" />
+      <workItem from="1581335629585" duration="4692000" />
     </task>
     <servers />
   </component>

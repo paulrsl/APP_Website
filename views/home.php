@@ -14,7 +14,9 @@
     <h1>Test</h1>
 
     <ul>
-        <?php foreach ($users as $user) { ?>
+        <?php
+        $users = getUsers()->fetchAll();
+        foreach ($users as $user) { ?>
             <li></br> <a>Nom : </a> <?= $user["surname"]; ?> </br> <a>Prénom : </a> <?= $user["name"]; ?> </br></li>
             </br>
         <?php } ?>
