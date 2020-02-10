@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8efd0e54-fdc7-4c55-8b35-b5d773d878c6" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U6oAAr64UeHQBJeqNZzYyt8yd0" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Smart_cards_generator_corrected" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\APP_Website" />
+      <recent name="C:\wamp64\www\APP_Website\views" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8efd0e54-fdc7-4c55-8b35-b5d773d878c6" name="Default Changelist" comment="" />
+      <created>1574686259941</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574686259941</updated>
+      <workItem from="1574686264329" duration="2694000" />
+      <workItem from="1574688987326" duration="60000" />
+      <workItem from="1574700533289" duration="1007000" />
+      <workItem from="1574703306846" duration="600000" />
+      <workItem from="1574704177041" duration="4000" />
+      <workItem from="1574756546116" duration="2027000" />
+      <workItem from="1574758651288" duration="449000" />
+      <workItem from="1574759393218" duration="912000" />
+      <workItem from="1574764829484" duration="1031000" />
+      <workItem from="1574879673469" duration="3493000" />
+      <workItem from="1575330894126" duration="1203000" />
+      <workItem from="1575365852816" duration="1381000" />
+      <workItem from="1575367339776" duration="210000" />
+      <workItem from="1575367650643" duration="138000" />
+      <workItem from="1575368042994" duration="780000" />
+      <workItem from="1575481929117" duration="667000" />
+      <workItem from="1575484510342" duration="111000" />
+      <workItem from="1580739257330" duration="3950000" />
+      <workItem from="1580743747880" duration="1117000" />
+      <workItem from="1580806036689" duration="6023000" />
+      <workItem from="1580896830354" duration="6496000" />
+      <workItem from="1581063994661" duration="5176000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
