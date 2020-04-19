@@ -1,31 +1,40 @@
 <?php
-	require "controllers/controller.php";
-	
-	if (isset($_GET["page"])) {
-		$page = htmlspecialchars($_GET["page"]);
-		
-		switch($page){
-			
-			case "connection" :  connection(); break;
-			
-			case "home" : home(); break;
-			
-			case "inscription" : inscription(); break;
+	require "controllers/redirection.php";
+    require "controllers/language.php";
+    require "controllers/addToDB.php";
+    require "controllers/test.php";
+    require "models/dbConnect.php";
+    require "models/createDB.php";
+    require "models/get.php";
+    require "models/insert.php";
 
-            case "forgotPassword" : forgotPassword(); break;
+    session_start();
 
-            case "add_user" : addUser(); break;
+    if(isset($_SESSION["language"])==false){
+        language("EN"); //Langue par défaut
+    }
 
-            case "try_connection" : tryConnection(); break;
+    if(isset($_GET["action"]) && isset($_GET["page"])==false){
+        $action = htmlspecialchars(($_GET["action"]));
+        switch ($action){
+            case "addPerson" : addPerson(); break;
+            case "tryConnection" : tryConnection(); break;
+            case "addFAQ" : addFAQ(); break;
+            default : redirection("connection");
+        }
+    }
 
-            case "createDB" : createDB(); break;
-						
-		}
+    if(isset($_GET["page"])){
+        if(isset($_GET["language"])){
+            $language = htmlspecialchars($_GET["language"]);
+            language($language);
+        }
+
+        $page = htmlspecialchars($_GET["page"]);
+        redirection($page);
+
+	}elseif(isset($_GET["action"])) { //Si on fait une action sans donner de page, la redirection est géré dans l'action
+
+    }else{
+	    redirection("connection"); //Page par défaut
 	}
-	else{
-		connection();
-	}
-	
-	
-	
-?>
