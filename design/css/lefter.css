@@ -1,0 +1,45 @@
+#lefter
+
+a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
+    font-family: "Lucida Sans Unicode";
+    text-decoration:none;
+    border-bottom-color: white;
+
+
+;
+}
+
+lefterstyle {
+    background-color: #1a1a1a;
+    display: block;
+    width: 20em;
+    height: 80em;
+    padding-left: 4em;
+    padding-top: 1.3em;
+    font-family: "Lucida Sans Unicode";
+    border-bottom: whitesmoke;
+}
+
+h3{
+    color: white;
+    size: 15px;
+    border-bottom: whitesmoke;
+}
+
+h1{color: white}
+
+
+
+
+lefterborder{
+    background-color: black;
+    display: block;
+    width: 20em;
+    height: 81.3em;
+    padding-left: 3em;
+
+}
+
