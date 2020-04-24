@@ -1,8 +1,6 @@
-<?php include 'views/templates/headerUnsession.php'?>
-
 <!DOCTYPE html>
-
 <html>
+<?php include 'views/templates/headerUnsession.php'?>
 
 <body>
 <h1><?php echo _404;?></h1>

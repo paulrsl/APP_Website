@@ -1,11 +1,9 @@
+<!DOCTYPE html>
+<html>
 <?php include 'views/templates/headerUnsession.php'?>
 
-<!DOCTYPE html>
-
-<html>
-
 <body>
-<h1><?php echo _CONTACTUS;?></h1>
+<h2 class="subpage"><?php echo _CONTACTUS;?></h2>
 
 <form method="post" action="index.php?action=sendMessage" enctype="multipart/form-data">
 
@@ -17,6 +15,7 @@
 
     <p>
         <label><?php echo _MESSAGE;?>
+            <br>
             <textarea name="message" rows="5" cols="50">
 
             </textarea>
@@ -27,8 +26,10 @@
 
 </form>
 
-
-<a href="index.php?page=connection"><?php echo _BACK;?></a>
+<h2>
+    <a href="index.php?page=connection"><?php echo _BACK;?></a>
+</h2>
+<br>
 
 </body>
 

@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<?php include "views/templates/headerSession.php"; ?>
 <html>
 
 <body>
-<?php include "views/templates/lefter.php"; ?>
+<?php include "views/templates/main-nav.php"; ?>
+<?php include "views/templates/headerSession.php"; ?>
 
-<?php
-if(isset($_SESSION["userTypeAccess"])){?>
-    <h1><?php echo _TESTRESULT;?></h1>
+<div class="content">
+    <?php
+    if(isset($_SESSION["userTypeAccess"])){?>
+        <h2 class="subpage"><?php echo _TESTRESULT;?></h2>
 
-    <?php if($_SESSION["userTypeAccess"] == "user"){?>
+        <?php if($_SESSION["userTypeAccess"] == "user"){?>
 
-    <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
+        <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
 
-    <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
+        <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
 
-    <?php }?>
+        <?php }?>
 
-<?php }else{ ?>
+    <?php }else{ ?>
 
-<?php } ?>
+    <?php } ?>
+</div>
 
 </body>
 
 </html>
 
-<?php include 'views/templates/footer.php'?>
 
 

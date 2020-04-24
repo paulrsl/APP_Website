@@ -1,28 +1,41 @@
 <!DOCTYPE html>
-<?php include "views/templates/headerSession.php"; ?>
 <html>
 
 <body>
-<?php include "views/templates/lefter.php"; ?>
+<?php include "views/templates/main-nav.php"; ?>
+<?php include "views/templates/headerSession.php"; ?>
 
-<?php
-if(isset($_SESSION["userTypeAccess"])){?>
-    <h1><?php echo _HOME;?></h1>
 
-    <?php if($_SESSION["userTypeAccess"] == "user"){?>
+<div class="content">
+    <?php
+    if(isset($_SESSION["userTypeAccess"])){?>
+        <h2 class="subpage"><?php echo _HOME;?></h2>
 
-    <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
+        <?php if($_SESSION["userTypeAccess"] == "user"){?>
 
-    <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
+        <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
 
-    <?php }?>
+        <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
 
-<?php }else{ ?>
+        <?php }?>
 
-<?php } ?>
+    <?php }else{ ?>
+
+    <?php } ?>
+
+    <?php
+    if(isset($_SESSION["userTypeAccess"])){
+        if($_SESSION["userTypeAccess"] == "user"){
+            echo _USER;
+        }elseif($_SESSION["userTypeAccess"] == "organism"){
+            echo _ORGANISM;
+        }elseif($_SESSION["userTypeAccess"] == "admin"){
+            echo _ADMIN;
+        }
+    }else{
+    } ?>
+</div>
 
 </body>
 
 </html>
-
-<?php include 'views/templates/footer.php'?>

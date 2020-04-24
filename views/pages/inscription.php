@@ -1,8 +1,7 @@
+<!DOCTYPE html>
+<html>
 <?php include 'views/templates/headerUnsession.php'?>
 
-<!DOCTYPE html>
-
-<html>
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="design/JavaScript/inscription.js" />
@@ -31,7 +30,7 @@
     </p>
 
     <p>
-        <a><?php echo _REGISTERON;?> ?</a>
+        <label><?php echo _REGISTERON;?> ?</label>
         <br>
         <select type = 'text' name="typeAccess" required id="typeAccess">
             <option value="user" id="user"><?php echo _USER;?></option>
@@ -51,15 +50,17 @@
 
     <p>
         <label><a href="index.php?page=GTU"> <?php echo _ACCEPTGTU;?> </a>
-            <input type="checkbox" required>
+            <input id ="checkbox" type="checkbox" required>
         </label>
     </p>
 
     <input disabled=true id="submit" type="submit" value="<?php echo _SUBMIT;?>" ></br></br>
 
 </form>
-
-<a href="index.php?page=connection"><?php echo _BACK;?></a>
+    <h2>
+        <a href="index.php?page=connection"><?php echo _BACK;?></a>
+    </h2>
+<br>
 
 <script src="design/JavaScript/inscription.js"></script>
 

@@ -1,20 +1,21 @@
+<!DOCTYPE html>
+<html>
 <?php include 'views/templates/headerUnsession.php'?>
 
-    <!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="design/css/inscription.css" />
+    <link rel="stylesheet" href="design/css/generalUnsession.css" />
+</head>
 
-    <html>
-    <head>
-        <link rel="stylesheet" href="design/css/generalUnsession.css" />
-    </head>
-    <body>
+<body>
     <?php if(isset($_SESSION["inscriptionTypeAccess"])){
         if($_SESSION["inscriptionTypeAccess"] == "user"){?>
-            <h1><?php echo _USER;?><?php echo _INSCRIPTION;?></h1>
+            <h2 class="subpage"> <?php echo _USER;?><?php echo _INSCRIPTION;?> </h2>
             <form method="post" action="index.php?action=addPerson" enctype="multipart/form-data">
 
                 <p>
                     <a><?php echo _SEX;?> ?</a>
-                    <select type = 'text' name="sex" required>
+                    <select type = 'text' name="sex" required id="typeAccess">
                         <option value="man"><?php echo _MAN;?></option>
                         <option value="women"><?php echo _WOMEN;?></option>
                         <option value="other"><?php echo _OTHER;?></option>
@@ -29,6 +30,7 @@
 
                 <p>
                     <label><?php echo _COMMENT;?>
+                        <br>
                         <textarea name="comment" rows="5" cols="50">
                         </textarea>
                     </label>
@@ -39,7 +41,8 @@
                         <a><?php echo _PRACTICESPORT;?></a>
                         <?php $sports = getAll("infossport")->fetchAll();
                         foreach ($sports as $sport){ ?>
-                            <input type="checkbox" name="sports[]" value=".<?php echo $sport["id"] ?>."><?php
+                            <input type="checkbox" name="sports[]" value="<?php echo $sport["id"] ?>.">
+                            <?php
                             if($_SESSION["language"] == "FR"){
                                 echo $sport["sportFR"];
                             }else{
@@ -50,18 +53,21 @@
                 </p>
 
                 <p>
-                    <label>
-                        <a><?php echo _JOBS;?></a>
-                        <?php $jobs = getAll("infosjob")->fetchAll();
-                        foreach ($jobs as $job){ ?>
-                            <input type="checkbox" name="jobs[]" value=".<?php echo $job["id"] ?>."><?php
+                    <a><?php echo _JOBS;?></a>
+
+                    <?php
+                    $jobs = getAll("infosjob")->fetchAll();
+                    foreach ($jobs as $job) { ?>
+                        <label>
+                            <?php
                             if($_SESSION["language"] == "FR"){
                                 echo $job["jobFR"];
-                            }else{
+                            } else {
                                 echo $job["jobEN"];
-                            }
-                        } ?>
-                    </label>
+                            } ?>
+                        </label>
+                        <input type="checkbox" name="jobs[]" value=".<?php echo $job["id"] ?>.">
+                    <?php } ?>
                 </p>
 
                 <p>
@@ -83,7 +89,7 @@
 
             </form>
         <?php }elseif($_SESSION["inscriptionTypeAccess"] == "organism"){ ?>
-            <h1><?php echo _ORGANISM;?><?php echo _INSCRIPTION;?></h1>
+            <h2 class="subpage"><?php echo _ORGANISM;?><?php echo _INSCRIPTION;?></h2>
             <form method="post" action="index.php?action=addPerson" enctype="multipart/form-data">
 
                 <p>
@@ -130,7 +136,7 @@
 
                 <p>
                     <a><?php echo _ORGANISMTYPE;?> ?</a>
-                    <select type ='text' name="organismType" required>
+                    <select type ='text' name="organismType" required id="typeAccess">
                         <option value="drivingSchool"><?php echo _DRIVINGSCHOOL;?></option>
                         <option value="army"><?php echo _ARMY;?></option>
                         <option value="NGO"><?php echo _NGO;?></option>
@@ -144,7 +150,7 @@
             </form>
 
         <?php }elseif($_SESSION["inscriptionTypeAccess"] == "admin"){ ?>
-            <h1><?php echo _ADMIN;?><?php echo _INSCRIPTION;?></h1>
+            <h2 class="subpage"><?php echo _ADMIN;?><?php echo _INSCRIPTION;?></h2>
             <form method="post" action="index.php?action=addPerson" enctype="multipart/form-data">
 
 
@@ -160,11 +166,13 @@
     <?php }else{ ?>
         <?php include 'views/templates/accessDeny.php'?>
     <?php } ?>
+    <h2>
+        <a href="index.php?page=connection"><?php echo _BACK;?></a>
+    </h2>
+    <br>
 
-    <a href="index.php?page=connection"><?php echo _BACK;?></a>
+</body>
 
-    </body>
-
-    </html>
+</html>
 
 <?php include 'views/templates/footer.php'?>

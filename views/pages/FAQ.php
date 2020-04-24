@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<?php include "views/templates/headerSession.php"; ?>
 <html>
 
 <body>
-<?php include "views/templates/lefter.php"; ?>
+<?php include "views/templates/main-nav.php"; ?>
+<?php include "views/templates/headerSession.php"; ?>
 
+<div class="content">
 <?php
 if(isset($_SESSION["userTypeAccess"])){?>
-    <h1><?php echo _FAQ;?></h1>
+    <h2 class="subpage"><?php echo _FAQ;?></h2>
 
     <?php if(($_SESSION["userTypeAccess"] == "user") || ($_SESSION["userTypeAccess"] == "organism") || ($_SESSION["userTypeAccess"] == "admin")){?>
 
@@ -74,10 +75,10 @@ if(isset($_SESSION["userTypeAccess"])){?>
 
 <?php } ?>
 
+</div>
+
 </body>
 
 </html>
-
-<?php include 'views/templates/footer.php'?>
 
 

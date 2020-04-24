@@ -1,16 +1,16 @@
+<!DOCTYPE html>
+<html>
 <?php include 'views/templates/headerUnsession.php'?>
 
-<!DOCTYPE html>
-
-<html>
-
-<head>
-    <link rel="stylesheet" href="design/css/generalUnsession.css" />
-</head>
-
 <body>
-<h1><?php echo _PRESENTATION;?></h1>
-<a href="index.php?page=connection"><?php echo _BACK;?></a>
+<h2 class="subpage"><?php echo _PRESENTATION;?></h2>
+<div id="presentationBM"><?php echo _PRESENTATIONTEXT;?></div>
+
+<h2>
+    <a href="index.php?page=connection"><?php echo _BACK;?></a>
+</h2>
+<br>
+
 
 </body>
 

@@ -3,21 +3,24 @@
 }
 
 html, body {
-    background-color : #006075;
+    background-color : #dddddd;
     margin: 0;
     padding: 0;
-    text-align : center;
-    color : white;
+    color: black;
+    display:flex;
 }
 
 a{
-    color : white;
+    color : #707070;
 }
 
 p{
+    text-align: left;
 }
 
 h1{ /*titre entête du site */
+    color : white;
+    padding-left: 25px;
     margin:0;
 }
 
@@ -25,12 +28,17 @@ h2{ /*titre nom des pages */
 }
 
 h3{ /* titre sous-menu */
-
+    color : white;
+    font-weight: normal;
+    font-size : 20px;
 }
 
 #EN-FR{
+    padding: 10px;
+    color : #707070;
     font-size : 24px;
 }
+
 
 input[type=checkbox]{
     height : 25px;
@@ -43,7 +51,7 @@ input[type=submit]{
 }
 
 .subpage{
-    /*padding-left: 50px;*/
+    color : black;
 }
 
 input{
@@ -84,4 +92,10 @@ input{
 
 .QCM{
     display:inline;
+}
+
+.content{
+    display:block;
+    padding-left:30px;
+    margin-top: 60px;
 }
