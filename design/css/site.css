@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     background-color : rgb(240,232,217);
     font-family : Segoe UI;
@@ -13,3 +14,20 @@ html, body {
     height : 75px;
     border-radius: 100%;
 }
+=======
+*{
+    background-color : rgb(240,232,217);
+    font-family : Segoe UI;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+.profilPicture{
+    width : 75px;
+    height : 75px;
+    border-radius: 100%;
+}
+>>>>>>> master

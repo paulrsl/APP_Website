@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #headbandTop{
     position : relative;
     min-height: 100%;
@@ -75,3 +76,45 @@ a{
 
 
 
+=======
+#headbandTop{
+    position : relative;
+    min-height: 100%;
+    background-color: black;
+    height : 10%;
+    width : 100%;
+}
+
+#headbandBottom{
+    position : absolute;
+    bottom : 0;
+    background-color: black;
+    height : 120px;
+    width : 100%;
+}
+
+::placeholder{
+    color : black;
+}
+
+#submit{
+    color : white;
+    background-color: #01E2FE;
+}
+
+#logo1{
+    float : left;
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top:40px;
+}
+
+#logo2{
+    float : right;
+    width: 350px;
+    height: 350px;
+    margin-right: 100px;
+    margin-top:40px;
+}
+>>>>>>> master

@@ -1,0 +1,101 @@
+*{
+    font-family : "Myriad Pro";
+}
+
+html, body {
+    background-color : #dddddd;
+    margin: 0;
+    padding: 0;
+    color: black;
+    display:flex;
+}
+
+a{
+    color : #707070;
+}
+
+p{
+    text-align: left;
+}
+
+h1{ /*titre entête du site */
+    color : white;
+    padding-left: 25px;
+    margin:0;
+}
+
+h2{ /*titre nom des pages */
+}
+
+h3{ /* titre sous-menu */
+    color : white;
+    font-weight: normal;
+    font-size : 20px;
+}
+
+#EN-FR{
+    padding: 10px;
+    color : #707070;
+    font-size : 24px;
+}
+
+
+input[type=checkbox]{
+    height : 25px;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width : 180px;
+    box-shadow: 4px 4px 8px #2c3e50;
+}
+
+.subpage{
+    color : black;
+}
+
+input{
+    width : 250px;
+    height : 50px;
+    background-color : white;
+    text-align : center;
+    color : black;
+    font-color : black;
+    border-radius : 10px;
+    border : 0px;
+    font-size : 24px;
+    display : block;
+    margin-left: auto;
+    margin-right : auto;
+}
+
+#typeAccess{
+    width : 250px;
+    height : 50px;
+    background-color : white;
+    text-align : center;
+    color : black;
+    font-color : black;
+    border-radius : 10px;
+    border : 0px;
+    font-size : 24px;
+    display : block;
+    margin-left: auto;
+    margin-right : auto;
+}
+
+#presentationBM{
+    padding-left : 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+.QCM{
+    display:inline;
+}
+
+.content{
+    display:block;
+    padding-left:30px;
+    margin-top: 60px;
+}
