@@ -7,6 +7,7 @@
     require "models/createDB.php";
     require "models/get.php";
     require "models/insert.php";
+    require "models/delete.php";
 
     session_start();
 

@@ -9,11 +9,20 @@
 if(isset($_SESSION["userTypeAccess"])){?>
     <h1><?php echo _HOME;?></h1>
 
-    <?php if($_SESSION["userTypeAccess"] == "user"){?>
+    <p id="user">
+    <?php if($_SESSION["userTypeAccess"] == "user"){
 
-    <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
 
-    <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
+    ?>
+        <a href="index.php?page=testResult">TestResult</a></br>
+        <a href="index.php?page=calendar">Calendar</a></br>
+
+        </p>
+    <p id="organism">
+    <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?></p>
+
+    <p id="admin">
+    <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?></p>
 
     <?php }?>
 

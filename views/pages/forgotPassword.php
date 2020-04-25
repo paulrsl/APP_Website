@@ -1,13 +1,21 @@
 <?php include 'views/templates/headerUnsession.php'?>
 
 <?php
+
 $objetMail = _FORGOTPASSWORD;
-$message = genereMotDePasse();
+$message = _MESSAGECONTENT . genereMotDePasse();
 
+if (isset($_POST['mailform'])) {
+
+    $header = "MIME-Version: 1.0\r\n";
+    $header .= 'From: "BIG MAP"<maximilien.teil@gmail.com>' . "\r\n";
+    $header .= 'Content-Type: text/html; charset="utf-8"' . "\n";
+    $header .= 'Content-Transfer-Encoding: 8bit';
+}
 ?>
-    <!DOCTYPE html>
 
-    <html>
+
+<html>
 
     <head>
         <link rel="stylesheet" href="design/css/generalUnsession.css" />
@@ -25,15 +33,11 @@ $message = genereMotDePasse();
         <p>
             <input type='text' name="mail" placeholder="<?php echo $destinataire = _MAIL;?>" required>
         </p>
-        <br>
         <input id='submit' type="submit" value="<?php echo _NEWPASSWORD;
-        if (mail($destinataire, $objetMail, $message)) // Envoi du message
-        {
+        if (isset($_POST[$objetMail])){
+
+            mail("maximilien.teil@gmail.com", $objetMail, $message); // Envoi du message
             echo _MESSAGESENT;
-        }
-        else // Non envoyé
-        {
-            echo _MESSAGENOTSENT;
         }
         ?>">
         </br>
@@ -45,7 +49,7 @@ $message = genereMotDePasse();
 
     </body>
 
-    </html>
+</html>
 
 <?php include 'views/templates/footer.php'?>
 

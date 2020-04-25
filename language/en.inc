@@ -44,6 +44,10 @@ define("_LOGOUT","Logout");
 
 define("_NOACCOUNT","No account ?");
 
+//home
+
+define("_TESTRESULTS","Your test results");
+
 //contact us
 
 define("_CONTACTUS","Contact us");
@@ -56,6 +60,7 @@ define("_MAILPASSWORD","Please enter your email:");
 define("_NEWPASSWORD","Reset password");
 define("_MESSAGESENT","Your message has been sent");
 define("_MESSAGENOTSENT","Your message could not be sent");
+define("_MESSAGECONTENT", "This is your new password: ");
 
 //inscription
 
@@ -118,6 +123,8 @@ define("_ADDMODIFY","Add or modify FAQ");
 define("_QUESTION","Question");
 define("_ANSWER","Answer");
 define("_LANGUAGE","Language");
+define("_DELETEMESSAGE", "The question has been deleted");
+define("_NOTDELETEMESSAGE", "The question has not been deleted");
 
 //user list
 

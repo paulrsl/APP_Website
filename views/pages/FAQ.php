@@ -12,26 +12,26 @@ if(isset($_SESSION["userTypeAccess"])){?>
     <?php if(($_SESSION["userTypeAccess"] == "user") || ($_SESSION["userTypeAccess"] == "organism") || ($_SESSION["userTypeAccess"] == "admin")){?>
 
         <ul>
-        <?php
-        $faq = getFAQ($_SESSION["userLanguage"])->fetchAll();
-        foreach ($faq as $ans){
-            ?>
-            <li>
-                <div>
-                    <a><?= $ans["question"]; ?></a>
+            <?php
+            $faq = getFAQ($_SESSION["userLanguage"])->fetchAll();
+            foreach ($faq as $ans){
+                ?>
+                <li>
+                    <div>
+                        <a><?= $ans["question"]; ?></a>
 
-                    <?php if($_SESSION["userTypeAccess"] == "admin"){?>
+                        <?php if($_SESSION["userTypeAccess"] == "admin"){?>
 
-                        <a><?php echo _MODIFY ?></a>
-                        <a><?php echo _DELETE ?></a>
+                            <a><?php echo _MODIFY ?></a>
+                            <a><?php echo _DELETE ?></a>
 
-                    <?php }?>
-                    <br>
-                    <a><?= $ans["answer"]; ?></a><br><br>
-                </div>
-            </li>
+                        <?php }?>
+                        <br>
+                        <a><?= $ans["answer"]; ?></a><br><br>
+                    </div>
+                </li>
 
-        <?php } ?>
+            <?php } ?>
         </ul>
         <?php if($_SESSION["userTypeAccess"] == "admin"){?>
 
@@ -62,8 +62,6 @@ if(isset($_SESSION["userTypeAccess"])){?>
                 <input type="submit" value="<?php echo _SUBMIT;?>" >
 
             </form>
-
-
 
         <?php } ?>
 

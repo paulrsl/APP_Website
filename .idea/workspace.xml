@@ -1,55 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8efd0e54-fdc7-4c55-8b35-b5d773d878c6" name="Default Changelist" comment="Je mets le code le plus avancé (celui de la présentation client 2) sur le Git et sur la branche master">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/addToDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/language.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/redirection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/JavaScript/inscription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/connection.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/faq.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/generalUnsession.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/headerUnsession.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/headersession.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/inscription.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/lefter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/language/fr.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/createDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/dbConnect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/get.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/insert.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/BigMap_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/InfiniteMesures_Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pictures/profilPicture/defaultPicture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/FAQ.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/GTU.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/calendar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/connection.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/contactUs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/dashboard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/forgotPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/inscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/inscription2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/manageAccessRight.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/modifyResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/myProfil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/performTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/presentation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/score.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/testResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/tickets.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/pages/userList.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/templates/accessDeny.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/templates/headerSession.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/templates/headerUnsession.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/templates/lefter.php" afterDir="false" />
+    <list default="true" id="8efd0e54-fdc7-4c55-8b35-b5d773d878c6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/JavaScript/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/css/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/css/testResults.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/FAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/FAQ.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/calendar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/forgotPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/forgotPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/testResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/testResult.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,8 +51,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../APP_Website (Paul)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -218,7 +184,21 @@
       <workItem from="1587307654735" duration="17288000" />
       <workItem from="1587381141838" duration="2002000" />
       <workItem from="1587456753228" duration="10000" />
+      <workItem from="1587480868793" duration="5675000" />
+      <workItem from="1587540074922" duration="7411000" />
+      <workItem from="1587556542262" duration="3396000" />
+      <workItem from="1587713395319" duration="6152000" />
+      <workItem from="1587730889378" duration="7462000" />
+      <workItem from="1587805129751" duration="12849000" />
     </task>
+    <task id="LOCAL-00001" summary="Je mets le code le plus avancé (celui de la présentation client 2) sur le Git et sur la branche max">
+      <created>1587457292301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587457292301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +219,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Je mets le code le plus avancé (celui de la présentation client 2) sur le Git et sur la branche master" />
-    <option name="LAST_COMMIT_MESSAGE" value="Je mets le code le plus avancé (celui de la présentation client 2) sur le Git et sur la branche master" />
+    <MESSAGE value="Je mets le code le plus avancé (celui de la présentation client 2) sur le Git et sur la branche max" />
+    <option name="LAST_COMMIT_MESSAGE" value="Je mets le code le plus avancé (celui de la présentation client 2) sur le Git et sur la branche max" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" />
