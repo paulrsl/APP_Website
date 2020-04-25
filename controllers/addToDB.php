@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
     function addPerson() {
         switch($_SESSION["inscriptionTypeAccess"]){
@@ -73,8 +74,9 @@
         return $result;
     }
 
-    function addFAQ(){
-        if ($_POST["question"] && $_POST["answer"] && $_POST["language"]){
+    function addFAQ()
+    {
+        if ($_POST["question"] && $_POST["answer"] && $_POST["language"]) {
 
             $question = htmlspecialchars($_POST["question"]);
             $answer = htmlspecialchars($_POST["answer"]);
@@ -85,3 +87,4 @@
             redirection("FAQ");
         }
     }
+?>

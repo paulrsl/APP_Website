@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
     function tryConnection(){
@@ -67,6 +68,6 @@
             redirection("inscription");
         }
     }
-
+?>
 
 

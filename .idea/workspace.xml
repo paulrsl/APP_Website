@@ -3,8 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="8efd0e54-fdc7-4c55-8b35-b5d773d878c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/addToDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/addToDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/language.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/language.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/redirection.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/redirection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/JavaScript/inscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/design/JavaScript/inscription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/connection.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/connection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/generalUnsession.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/generalUnsession.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/headerUnsession.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/headerUnsession.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/headersession.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/headersession.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/inscription.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/inscription.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/fr.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/createDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/createDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dbConnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/dbConnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/get.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/get.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/FAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/FAQ.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/GTU.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/GTU.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/calendar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/contactUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/contactUs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/forgotPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/forgotPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/inscription2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +54,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1U6oAAr64UeHQBJeqNZzYyt8yd0" />
@@ -36,8 +69,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../APP_Website (Paul)" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -79,7 +113,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.controller.php" />
         <item itemvalue="JavaScript Debug.controller.php" />
       </list>
     </recent_temporary>
@@ -169,7 +202,21 @@
       <workItem from="1587307654735" duration="17288000" />
       <workItem from="1587381141838" duration="2002000" />
       <workItem from="1587456753228" duration="10000" />
+      <workItem from="1587480868793" duration="5675000" />
+      <workItem from="1587540074922" duration="7411000" />
+      <workItem from="1587556542262" duration="3396000" />
+      <workItem from="1587713395319" duration="6152000" />
+      <workItem from="1587730889378" duration="7462000" />
+      <workItem from="1587805129751" duration="12849000" />
     </task>
+    <task id="LOCAL-00001" summary="Je mets le code le plus avancé (celui de la présentation client 2) sur le Git et sur la branche max">
+      <created>1587457292301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587457292301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,32 +227,29 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Je mets le code le plus avancé (celui de la présentation client 2) sur le Git et sur la branche master" />
+    <MESSAGE value="Je mets le code le plus avancé (celui de la présentation client 2) sur le Git et sur la branche max" />
+    <option name="LAST_COMMIT_MESSAGE" value="Je mets le code le plus avancé (celui de la présentation client 2) sur le Git et sur la branche max" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587222863480">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587222863480" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1587206648773">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587206648773" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585903107522">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585903107522" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1586265010217">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586265010217" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1587203783062">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587203783062" />
+    <state x="740" y="275" key="FileChooserDialogImpl" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" />
+    <state x="794" y="443" key="NewPhpFileDialog" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="616" y="240" key="run.anything.popup" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" />
   </component>
 </project>

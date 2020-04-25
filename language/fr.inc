@@ -116,4 +116,5 @@ define("_GTU","CGU");
 
 //ACCESS DENY
 
+
 define("_ACCESSDENY","Accès non autorisé !");

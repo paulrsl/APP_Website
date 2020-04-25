@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 
     function redirection($page){
@@ -26,5 +27,4 @@
             }
         }
     }
-
-
+?>

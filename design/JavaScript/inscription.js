@@ -19,3 +19,4 @@ function PasswordSize(){
 		document.getElementById("submit").disabled = true;
 	}
 }
+
