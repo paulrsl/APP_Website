@@ -15,12 +15,13 @@ if(isset($_SESSION["userTypeAccess"])){?>
     <ul>
     <?php $person = getPerson()->fetchAll();
         foreach ($person as $ans){?>
-            <li>
+            <li id="userList">
                 <?php echo $ans["firstName"]. " " .$ans["lastName"]. " " .$ans["mail"]. " " .$ans["typeAccess"] ?>
-                <a><?php echo _MODIFY?></a>
-                <a><?php echo _DELETE?></a>
-            </li>
 
+                    <input class="smallButton" type="submit" value="<?php echo _MODIFY ?>">
+                    <input class="smallButton" type="submit" value="<?php echo _DELETE ?>">
+
+            </li>
         <?php } ?>
     </ul>
     <?php }else{ include "views/templates/accessDeny.php"; ?>

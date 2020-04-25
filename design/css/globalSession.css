@@ -17,10 +17,15 @@ a{
 p{
 }
 
-h1{ /*titre en-tête du site */
+#siteName{
     color : white;
     padding-left: 25px;
-    margin:0;
+    margin-top:-20px;
+    position:fixed;
+    text-decoration: none;
+}
+
+h1{ /*titre en-tête du site */
 }
 
 h2{ /*titre nom des pages */
@@ -46,7 +51,7 @@ h3{ /* titre sous-menu */
     letter-spacing: 1px;
     box-shadow: 0px 0px 40px rgba(44, 62, 80, 0.26);
     position:fixed;
-    width:calc(100% - 320px);
+    width:calc(100% - 300px);
 }
 
 #profilText{
@@ -71,18 +76,21 @@ h3{ /* titre sous-menu */
 #main-nav {
     background-color: #1a1a1a;
     color : white;
-    width: 320px;
-    height: 1000px;
+    width: 300px;
+    min-height:1080px;
     padding-top: 25px;
 }
 
 .main-nav-list{
     list-style:none;
     margin-left:-40px;
+    position:fixed;
+    margin-top:60px;
 }
 
 .nav-item{
     padding:8px;
+
 }
 
 .nav-text{
@@ -131,6 +139,12 @@ h3{ /* titre sous-menu */
     color:#50b012;
 }
 
+#userType{
+    padding:30px;
+    margin-top: 600px;
+    position : fixed;
+}
+
 /*BUTTONS-INPUT*/
 
 input[type=checkbox]{
@@ -144,7 +158,6 @@ textarea{
 
 .smallButton{
     font-size:16px;
-    width : 70px;
     height : 25px;
     text-align : center;
     border-radius : 10px;
@@ -176,7 +189,7 @@ input[type=submit]{
     padding:30px;
     background-color:white;
     margin: 80px 30px 30px;
-    width:1080px;
+    min-width:1080px;
     box-shadow: 0px 0px 10px rgba(44, 62, 80, 0.26);
 }
 
@@ -216,4 +229,10 @@ input[type=submit]{
     font-size: 16px;
     border-radius : 5px;
     border : 1px solid #707070;
+}
+
+/*MANAGE ACCESS RIGHT*/
+
+#userList{
+    padding:5px;
 }

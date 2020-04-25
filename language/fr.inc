@@ -38,7 +38,7 @@ define("_MODIFYRESULT","Modifier les résultats");
 define("_MANAGEACCESSRIGHT","Gérer les droits d'accès");
 
 define("_FAQ","FAQ");
-define("_TICKETS","Envoyer un tiquet");
+define("_TICKETS","Envoyer un ticket");
 define("_LOGOUT","Déconnexion");
 
 

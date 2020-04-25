@@ -23,17 +23,6 @@
 
     <?php } ?>
 
-    <?php
-    if(isset($_SESSION["userTypeAccess"])){
-        if($_SESSION["userTypeAccess"] == "user"){
-            echo _USER;
-        }elseif($_SESSION["userTypeAccess"] == "organism"){
-            echo _ORGANISM;
-        }elseif($_SESSION["userTypeAccess"] == "admin"){
-            echo _ADMIN;
-        }
-    }else{
-    } ?>
 </div>
 
 </body>

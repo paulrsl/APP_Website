@@ -25,7 +25,7 @@
     }
     ?>
 
-    <a style="text-decoration:none" href="index.php?page=home"><h1>Infinite Measures</h1></a>
+    <a id="siteName" href="index.php?page=home"><h1>Infinite Measures</h1></a>
     <ul class="main-nav-list">
     <div class="main-nav1">
         <?php
@@ -143,6 +143,21 @@
 
     <?php }else{ ?>
     <?php } ?>
+
+    <div id="userType">
+        <?php
+        if(isset($_SESSION["userTypeAccess"])){
+            if($_SESSION["userTypeAccess"] == "user"){
+                echo _USER;
+            }elseif($_SESSION["userTypeAccess"] == "organism"){
+                echo _ORGANISM;
+            }elseif($_SESSION["userTypeAccess"] == "admin"){
+                echo _ADMIN;
+            }
+        }else{
+        } ?>
+    </div>
+
     </body>
 </div>
 
