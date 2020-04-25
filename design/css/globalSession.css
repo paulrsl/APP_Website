@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     font-family : "Myriad Pro";
 }
@@ -154,4 +155,162 @@ input[type=submit]{
 
 .subpage{
     color : black;
+=======
+*{
+    font-family : "Myriad Pro";
+}
+
+html, body {
+    background-color : #dddddd;
+    margin: 0;
+    padding: 0;
+    color: black;
+    display:flex;
+}
+
+a{
+    color : #707070;
+}
+
+p{
+}
+
+h1{ /*titre en-tête du site */
+    color : white;
+    padding-left: 25px;
+    margin:0;
+}
+
+h2{ /*titre nom des pages */
+    margin-top:0px;
+}
+
+h3{ /* titre sous-menu */
+    color : white;
+    font-weight: normal;
+    font-size : 20px;
+}
+
+/*HEADER*/
+
+#header {
+    color: #707070;
+    height:50px;
+    background-color: whitesmoke;
+    text-align: right;
+    display:flex;
+    align-items : center;
+    justify-content : end;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 40px rgba(44, 62, 80, 0.26);
+    position:fixed;
+    width:calc(100% - 320px);
+}
+
+#profilText{
+    padding: 10px;
+    text-decoration: none;
+}
+
+#profilIcon{
+    padding-right: 5px;
+    font-size: 40px;
+}
+
+#EN-FR{
+    padding: 10px;
+    color : #707070;
+    font-size : 24px;
+    font-weight: bold;
+}
+
+/*MAIN-NAV*/
+
+#main-nav {
+    background-color: #1a1a1a;
+    color : white;
+    width: 320px;
+    height: 1000px;
+    padding-top: 25px;
+}
+
+.main-nav-list{
+    list-style:none;
+    margin-left:-40px;
+}
+
+.nav-item{
+    padding:8px;
+}
+
+.nav-text{
+    color:white;
+    font-size: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+}
+
+.main-nav1{
+    padding-left: 20px;
+    padding-bottom:10px;
+    border-bottom: 2px solid #000;
+}
+
+.main-nav2{
+    padding-left: 20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-bottom: 2px solid #000;
+}
+
+.main-nav3{
+    padding-left: 20px;
+    padding-top:10px;
+}
+
+.fas{
+    font-size:20px;
+    width:20px;
+    height:20px;
+    margin-right:20px;
+}
+
+.main-nav1 .fas{
+    color:#11a9ed;
+}
+
+.main-nav2 .fas {
+    color: #ed7e00;
+}
+
+.main-nav3 .fas{
+    color:#50b012;
+}
+
+/*CONTENT*/
+
+.content{
+    display:block;
+    padding:30px;
+    background-color:white;
+    margin: 80px 30px 30px;
+    width:1080px;
+    box-shadow: 0px 0px 10px rgba(44, 62, 80, 0.26);
+}
+
+input[type=checkbox]{
+    height : 25px;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width : 180px;
+    box-shadow: 4px 4px 8px #2c3e50;
+}
+
+.subpage{
+    color : black;
+>>>>>>> eade9b217a854d1552c52ae7f2abfca102448b99
 }
