@@ -1,0 +1,28 @@
+
+.profilPicture{
+    width : 75px;
+    height : 75px;
+    border-radius: 100%;
+}
+
+.menu:hover .underMenu{
+    display:block;
+
+}
+
+.underMenu{
+    display : none;
+}
+
+.underMenu a{
+    display : block;
+}
+
+textarea{
+    width : 250px;
+    height : 50px;
+}
+
+#modif{
+    cursor : pointer;
+}
