@@ -42,13 +42,13 @@ if(isset($_SESSION["userTypeAccess"])){?>
 
                 <p>
                     <label><?php echo _QUESTION;?><br>
-                        <textarea name="question" rows="2" cols="50"></textarea>
+                        <textarea name="question" rows="3" cols="60"></textarea>
                     </label>
                 </p>
 
                 <p>
                     <label><?php echo _ANSWER;?><br>
-                        <textarea name="answer" rows="2" cols="50"></textarea>
+                        <textarea name="answer" rows="3" cols="60"></textarea>
                     </label>
                 </p>
 
