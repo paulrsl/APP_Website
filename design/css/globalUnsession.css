@@ -48,18 +48,19 @@ h3{ /* titre sous-menu */
     font-size: 20px;
 }
 
-/*CONNECTION*/
+/*BUTTONS-INPUT*/
 
-.subpage{
+textarea{ /*Toutes les zones de texte */
+    border-radius : 5px;
+    border : 1px solid #707070;
 }
 
-input{
+input{ /*tous les champs utilisateur*/
     width : 250px;
     height : 50px;
     background-color : white;
     text-align : center;
     color : black;
-    font-color : black;
     border-radius : 10px;
     border : 0px;
     font-size : 24px;
@@ -68,23 +69,27 @@ input{
     margin-right : auto;
 }
 
-input[type=checkbox]{
+input[type=checkbox]{ /* toutes les entrées de type checkbox*/
     height : 25px;
 }
 
-input[type=submit]{
+input[type=submit]{ /*tous les boutons Submit */
     cursor: pointer;
     width : 180px;
     box-shadow: 4px 4px 8px #2c3e50;
 }
 
-.typeAccess{
+.blueButton{ /*Bouton bleu spécifique*/
+    color : white;
+    background-color: #01E2FE;
+}
+
+.typeAccess{ /*Tous les menus déroulant */
     width : 250px;
     height : 50px;
     background-color : white;
     text-align : center;
     color : black;
-    font-color : black;
     border-radius : 10px;
     border : 0px;
     font-size : 24px;
@@ -93,19 +98,7 @@ input[type=submit]{
     margin-right : auto;
 }
 
-#presentationBM{
-    padding-left : 50px;
-    padding-right: 50px;
-    color: white;
-}
-
-.preFooter{
-    padding : 10px;
-}
-
-.QCM{
-    display:inline;
-}
+/*CONNECTION*/
 
 #headbandTop{
     position : relative;
@@ -127,11 +120,6 @@ input[type=submit]{
     color : black;
 }
 
-.blueButton{
-    color : white;
-    background-color: #01E2FE;
-}
-
 #logo1{
     float : left;
     width: 350px;
@@ -146,6 +134,20 @@ input[type=submit]{
     height: 350px;
     margin-right: 100px;
     margin-top:40px;
+}
+
+#presentationBM{
+    padding-left : 50px;
+    padding-right: 50px;
+    color: white;
+}
+
+.preFooter{
+    padding : 10px;
+}
+
+.QCM{
+    display:inline;
 }
 
 /*FOOTER*/

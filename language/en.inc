@@ -122,7 +122,7 @@ define("_ACCESSDENY","Acces deny !");
 
 define("_MODIFY","Modify");
 define("_DELETE","Delete");
-define("_ADDMODIFY","Add or modify FAQ");
+define("_ADDQUESTION","Add a question/answer :");
 define("_QUESTION","Question");
 define("_ANSWER","Answer");
 define("_LANGUAGE","Language");
