@@ -2,19 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8efd0e54-fdc7-4c55-8b35-b5d773d878c6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/JavaScript/calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/calendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/css/testResults.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/addToDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/addToDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/language.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/language.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/redirection.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/redirection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/JavaScript/inscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/design/JavaScript/inscription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/connection.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/connection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/faq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/generalUnsession.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/generalUnsession.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/headerUnsession.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/headerUnsession.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/headersession.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/headersession.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/inscription.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/inscription.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/fr.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/createDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/createDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dbConnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/dbConnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/get.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/get.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/FAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/FAQ.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/GTU.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/GTU.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/calendar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/contactUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/contactUs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/dashboard.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/forgotPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/forgotPassword.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/testResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/testResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/inscription2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +113,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.controller.php" />
         <item itemvalue="JavaScript Debug.controller.php" />
       </list>
     </recent_temporary>
