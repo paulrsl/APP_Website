@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
-<?php include 'views/templates/headerUnsession.php'?>
 
 <body>
+<?php include 'views/templates/headerLogout.php'?>
+
 <h2 class="subpage"><?php echo _CONTACTUS;?></h2>
 
 <form method="post" action="index.php?action=sendMessage" enctype="multipart/form-data">
 
     <p>
         <label><?php echo _MAIL;?> :<br>
-            <input type='email' name="mail" placeholder="<?php echo _MAIL;?>" required>
+            <input class ="userInput" type='email' name="mail" placeholder="<?php echo _MAIL;?>" required>
         </label>
     </p>
 
@@ -22,7 +23,7 @@
         </label>
     </p>
 
-    <input class="blueButton" type="submit" value="<?php echo _SUBMIT;?>" >
+    <input class="userInput blueButton" type="submit" value="<?php echo _SUBMIT;?>" >
 
 </form>
 
@@ -30,8 +31,7 @@
     <a href="index.php?page=connection"><?php echo _BACK;?></a>
 </h2>
 
+<?php include 'views/templates/footer.php'?>
 </body>
 
 </html>
-
-<?php include 'views/templates/footer.php'?>

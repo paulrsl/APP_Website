@@ -3,8 +3,34 @@
   <component name="ChangeListManager">
     <list default="true" id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/css/globalSession.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/globalSession.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/css/globalUnsession.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/globalUnsession.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/globalSession.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/globalUnsession.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/fr.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/FAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/FAQ.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/GTU.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/GTU.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/calendar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/contactUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/contactUs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/forgotPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/forgotPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/inscription2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/manageAccessRight.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/manageAccessRight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/modifyResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/modifyResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/myProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/myProfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/performTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/performTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/presentation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/score.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/score.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/testResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/testResult.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/tickets.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/tickets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/userList.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/userList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates/headerSession.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates/headerUnsession.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates/main-nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates/main-nav.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +69,10 @@
       <workItem from="1587844748852" duration="66000" />
       <workItem from="1587844816477" duration="11581000" />
       <workItem from="1587857505031" duration="1444000" />
-      <workItem from="1587858984337" duration="436000" />
+      <workItem from="1587858984337" duration="577000" />
+      <workItem from="1587863569608" duration="504000" />
+      <workItem from="1587903644919" duration="17794000" />
+      <workItem from="1587938357139" duration="6714000" />
     </task>
     <task id="LOCAL-00001" summary="FAQ graphique interface">
       <created>1587851406698</created>
@@ -80,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587858501003</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Buttons edit (by Paul)">
+      <created>1587859454812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587859454812</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,7 +126,8 @@
     <MESSAGE value="FAQ graphique interface" />
     <MESSAGE value="Main-nav position fixed + manage access rights" />
     <MESSAGE value="Responsive nav-bar + buttons &amp; textarea" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive nav-bar + buttons &amp; textarea" />
+    <MESSAGE value="Buttons edit (by Paul)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Buttons edit (by Paul)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Deployment" timestamp="1587851881528">
@@ -101,25 +138,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="476" y="4" key="#PHP/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587851565437" />
-    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1587858499769">
+    <state x="393" y="8" key="CommitChangelistDialog2" timestamp="1587859453656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587858499769" />
+    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587859453656" />
     <state x="548" y="155" key="FileChooserDialogImpl" timestamp="1587851658442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587851658442" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1587858503299">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1587859457217">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587858503299" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1587858985401">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587859457217" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1587938435259">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587858985401" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587938435259" />
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587852146054">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587852146054" />
+    <state x="463" y="144" width="738" height="606" key="find.popup" timestamp="1587944727258">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="144" width="738" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587944727258" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1587925662974">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587925662974" />
   </component>
 </project>

@@ -9,11 +9,11 @@ define("_MAIL","Mail");
 define("_PASSWORD","Mot de passe");
 define("_CONNECTION","Connection");
 
-//header unSession
+//header logout
 
 define("_WELCOME","Bienvenue sur le site BIG-MAP !");
 
-//header session
+//header login
 
 define("_MYPROFIL","Mon profil");
 

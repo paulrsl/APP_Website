@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<?php include 'views/templates/headerUnsession.php'?>
 
 <body>
+<?php include 'views/templates/headerLogout.php'?>
+
 <h2 class="subpage"><?php echo _GTU;?></h2>
 
 <?php
@@ -16,8 +17,7 @@
 </h2>
 <br>
 
+<?php include 'views/templates/footer.php'?>
 </body>
 
 </html>
-
-<?php include 'views/templates/footer.php'?>
