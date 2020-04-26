@@ -75,7 +75,9 @@ input[type=checkbox]{ /* toutes les entrées de type checkbox*/
 
 input[type=submit]{ /*tous les boutons Submit */
     cursor: pointer;
-    width : 180px;
+    width: auto;
+    height: auto;
+    padding: 10px 20px;
     box-shadow: 4px 4px 8px #2c3e50;
 }
 

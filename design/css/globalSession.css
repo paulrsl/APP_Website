@@ -159,7 +159,7 @@ textarea{
 
 .smallButton{
     font-size:16px;
-    height : 25px;
+    padding:4px 8px;
     text-align : center;
     border-radius : 10px;
     border : 0px;
@@ -169,8 +169,7 @@ textarea{
 
 .bigButton{
     font-size:24px;
-    width : 120px;
-    height : 40px;
+    padding:10px 20px;
     text-align : center;
     border-radius : 10px;
     border : 0px;
@@ -210,6 +209,7 @@ input[type=submit]{
 
 .faq-answer{
     padding:10px;
+    line-height: 2;
     color : #707070;
 }
 
