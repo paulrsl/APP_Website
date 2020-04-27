@@ -6,22 +6,31 @@
 <?php include "views/templates/headerLogin.php"; ?>
 
 <div class="page">
-    <div class="container">
+    <div class="container" id="box1">
+        <a class="subpage" href="index.php?page=testResult"><h2><?php echo _TESTRESULT;?></h2></a>
         <?php
         if(isset($_SESSION["userTypeAccess"])){?>
-            <h2 class="subpage"><?php echo _DASHBOARD;?></h2>
+            <img src="pictures/Rythme-cardiaque-1.png" class="testIcon" alt="Rythme-cardiaque-1"/>
+            <img src="pictures/Reflexe-visuel-1.png" class="testIcon" alt="Reflexe-visuel-1"/>
+            <br>
+            <img src="pictures/Test-audition-1.png" class="testIcon" alt="Test-audition-1"/>
+            <img src="pictures/Reflexe-sonore-1.png" class="testIcon" alt="Reflexe-sonore-1"/>
 
-            <?php if($_SESSION["userTypeAccess"] == "user"){?>
+        <?php if($_SESSION["userTypeAccess"] == "user"){?>
 
-            <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
+        <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
 
-            <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
+        <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
 
-            <?php }?>
+        <?php }?>
 
         <?php }else{ ?>
 
         <?php } ?>
+    </div>
+
+    <div class="container" id="box2">
+        <a class="subpage" href="index.php?page=calendar"><h2><?php echo _CALENDAR;?></h2></a>
     </div>
 </div>
 

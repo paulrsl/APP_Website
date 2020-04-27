@@ -9,9 +9,9 @@
                     echo " / ";
                     echo "<a href=" . htmlspecialchars("index.php?page=" . $_GET["page"] . "&language=FR") . ">FR</a>";
                 } else {
-                    echo "<a href=" . htmlspecialchars("index.php?page=home&language=EN") . ">EN</a>";
+                    echo "<a href=" . htmlspecialchars("index.php?page=dashboard&language=EN") . ">EN</a>";
                     echo " / ";
-                    echo "<a href=" . htmlspecialchars("index.php?page=home&language=FR") . ">FR</a>";
+                    echo "<a href=" . htmlspecialchars("index.php?page=dashboard&language=FR") . ">FR</a>";
                 }
                 ?>
             </div>
