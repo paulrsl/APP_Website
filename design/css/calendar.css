@@ -1,0 +1,94 @@
+*
+{
+    box-sizing:border-box;
+}
+
+body
+{
+    align-items:flex-start;
+    color:#fff;
+    font-family : Segoe UI;
+    font-size:16px;
+    height:100vh;
+    justify-content:center;
+    margin:0;
+    padding:0;
+}
+
+.calendar
+{
+    background:grey;
+    border-radius:4px;
+    color:black;
+    overflow:hidden;
+    margin-top:20px;
+    max-width:400px;
+}
+
+button
+{
+    border:none;
+}
+
+.calendar .header
+{
+    background:#ddd;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+}
+
+.calendar .month
+{
+    display:inline-block;
+    font-weight:bold;
+}
+
+.calendar button
+{
+    background:none;
+    color:inherit;
+    cursor:pointer;
+    font-family:Consolas;
+    font-size:1.75rem;
+    height:100%;
+    padding:0 15px;
+}
+
+.calendar button:hover
+{
+    color:#006075;
+}
+
+.calendar button:first-child
+{
+    float:left;
+}
+
+.calendar button:last-child
+{
+    float:right;
+}
+
+.calendar .cell
+{
+    background:grey;
+    color:black;
+    box-sizing:border-box;
+    display:inline-block;
+    padding:10px 0;
+    text-align:center;
+    width:calc(100% / 7);
+}
+
+.calendar .day
+{
+    font-size:.8rem;
+    padding:8px 0;
+}
+
+.calendar .day, .calendar .today
+{
+    background:#006075;
+    color:#fff;
+}
