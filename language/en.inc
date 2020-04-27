@@ -9,11 +9,11 @@ define("_MAIL","Mail");
 define("_PASSWORD","Password");
 define("_CONNECTION","Connection");
 
-//header unSession
+//header logout
 
 define("_WELCOME","Welcome to the BIG-MAP website !");
 
-//header session
+//header login
 
 define("_MYPROFIL","My profil");
 
@@ -122,7 +122,7 @@ define("_ACCESSDENY","Acces deny !");
 
 define("_MODIFY","Modify");
 define("_DELETE","Delete");
-define("_ADDMODIFY","Add or modify FAQ");
+define("_ADDQUESTION","Add a question/answer :");
 define("_QUESTION","Question");
 define("_ANSWER","Answer");
 define("_LANGUAGE","Language");

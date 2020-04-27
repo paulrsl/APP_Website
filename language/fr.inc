@@ -1,6 +1,6 @@
 <?php
 
-//English
+//Français
 
 //common
 
@@ -9,11 +9,11 @@ define("_MAIL","Mail");
 define("_PASSWORD","Mot de passe");
 define("_CONNECTION","Connection");
 
-//header unSession
+//header logout
 
 define("_WELCOME","Bienvenue sur le site BIG-MAP !");
 
-//header session
+//header login
 
 define("_MYPROFIL","Mon profil");
 
@@ -38,7 +38,7 @@ define("_MODIFYRESULT","Modifier les résultats");
 define("_MANAGEACCESSRIGHT","Gérer les droits d'accès");
 
 define("_FAQ","FAQ");
-define("_TICKETS","Envoyer un tiquet");
+define("_TICKETS","Envoyer un ticket");
 define("_LOGOUT","Déconnexion");
 
 
@@ -60,7 +60,7 @@ define("_FORGOTPASSWORD","Mot de passe oublié ?");
 define("_INSCRIPTION","Inscription");
 define("_FIRSTNAME","Prénom");
 define("_LASTNAME","Nom");
-define("_REGISTERON","S'enregistrer en tant qu'");
+define("_REGISTERON","S'enregistrer en tant que ");
 define("_USER","Utilisateur");
 define("_ORGANISM","Organisme");
 define("_ADMIN","Administrateur");
@@ -116,5 +116,17 @@ define("_GTU","CGU");
 
 //ACCESS DENY
 
-
 define("_ACCESSDENY","Accès non autorisé !");
+
+//FAQ
+
+define("_MODIFY","Modifier");
+define("_DELETE","Supprimer");
+define("_ADDQUESTION","Ajouter une question/réponse :");
+define("_QUESTION","Question");
+define("_ANSWER","Réponse");
+define("_LANGUAGE","Langage");
+
+//user list
+
+define("_NOMEMBER","Aucun membre");

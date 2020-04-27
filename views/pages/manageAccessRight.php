@@ -3,35 +3,39 @@
 
 <body>
 <?php include "views/templates/main-nav.php"; ?>
-<?php include "views/templates/headerSession.php"; ?>
+<?php include "views/templates/headerLogin.php"; ?>
 
-<div class="content">
-<?php
-if(isset($_SESSION["userTypeAccess"])){?>
-    <h2 class="subpage"><?php echo _MANAGEACCESSRIGHT;?></h2>
+<div class="page">
+    <div class="container">
+    <?php
+    if(isset($_SESSION["userTypeAccess"])){?>
+        <h2 class="subpage"><?php echo _MANAGEACCESSRIGHT;?></h2>
 
-    <?php if($_SESSION["userTypeAccess"] == "admin"){?>
+        <?php if($_SESSION["userTypeAccess"] == "admin"){?>
 
-    <ul>
-    <?php $person = getPerson()->fetchAll();
-        foreach ($person as $ans){?>
-            <li>
-                <?php echo $ans["firstName"]. " " .$ans["lastName"]. " " .$ans["mail"]. " " .$ans["typeAccess"] ?>
-                <a><?php echo _MODIFY?></a>
-                <a><?php echo _DELETE?></a>
-            </li>
+        <ul>
+        <?php $person = getPerson()->fetchAll();
+            foreach ($person as $ans){?>
+                <li id="userList">
+                    <?php echo $ans["firstName"]. " " .$ans["lastName"]. " " .$ans["mail"]. " " .$ans["typeAccess"] ?>
 
-        <?php } ?>
-    </ul>
-    <?php }else{ include "views/templates/accessDeny.php"; ?>
+                        <input class="smallButton" type="submit" value="<?php echo _MODIFY ?>">
+                        <input class="smallButton" type="submit" value="<?php echo _DELETE ?>">
 
+                </li>
+            <?php } ?>
+        </ul>
+        <?php }else{ include "views/templates/accessDeny.php"; ?>
 
-    <?php }?>
+        <?php }?>
 
-<?php }else{ ?>
+    <?php }else{ ?>
 
-<?php } ?>
+    <?php } ?>
+    </div>
 </div>
+
+</div> <!--fin du bloc main-->
 
 </body>
 

@@ -3,23 +3,27 @@
 
 <body>
 <?php include "views/templates/main-nav.php"; ?>
-<?php include "views/templates/headerSession.php"; ?>
+<?php include "views/templates/headerLogin.php"; ?>
 
-<div class="content">
-    <?php
-    if(isset($_SESSION["userTypeAccess"])){?>
-        <h2 class="subpage"><?php echo _TICKETS;?></h2>
+<div class="page">
+    <div class="container">
+        <?php
+        if(isset($_SESSION["userTypeAccess"])){?>
+            <h2 class="subpage"><?php echo _TICKETS;?></h2>
 
-        <?php if(($_SESSION["userTypeAccess"] == "user") || ($_SESSION["userTypeAccess"] == "organism")){?>
+            <?php if(($_SESSION["userTypeAccess"] == "user") || ($_SESSION["userTypeAccess"] == "organism")){?>
 
-        <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
+            <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
 
-        <?php }?>
+            <?php }?>
 
-    <?php }else{ ?>
+        <?php }else{ ?>
 
-    <?php } ?>
+        <?php } ?>
+    </div>
 </div>
+
+</div> <!--fin du bloc main-->
 
 </body>
 

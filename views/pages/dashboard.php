@@ -1,59 +1,31 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-<?php include "views/templates/headerSession.php"; ?>
-<html>
-
-<body>
-<?php include "views/templates/lefter.php"; ?>
-
-<?php
-if(isset($_SESSION["userTypeAccess"])){?>
-    <h1><?php echo _DASHBOARD;?></h1>
-
-    <?php if($_SESSION["userTypeAccess"] == "user"){?>
-
-    <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
-
-    <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
-
-    <?php }?>
-
-<?php }else{ ?>
-
-<?php } ?>
-
-</body>
-
-</html>
-
-<?php include 'views/templates/footer.php'?>
-
-
-=======
 <!DOCTYPE html>
 <html>
 
 <body>
 <?php include "views/templates/main-nav.php"; ?>
-<?php include "views/templates/headerSession.php"; ?>
+<?php include "views/templates/headerLogin.php"; ?>
 
-<div class="content">
-    <?php
-    if(isset($_SESSION["userTypeAccess"])){?>
-        <h2 class="subpage"><?php echo _DASHBOARD;?></h2>
+<div class="page">
+    <div class="container">
+        <?php
+        if(isset($_SESSION["userTypeAccess"])){?>
+            <h2 class="subpage"><?php echo _DASHBOARD;?></h2>
 
-        <?php if($_SESSION["userTypeAccess"] == "user"){?>
+            <?php if($_SESSION["userTypeAccess"] == "user"){?>
 
-        <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
+            <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
 
-        <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
+            <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
 
-        <?php }?>
+            <?php }?>
 
-    <?php }else{ ?>
+        <?php }else{ ?>
 
-    <?php } ?>
+        <?php } ?>
+    </div>
 </div>
+
+</div> <!--fin du bloc main-->
 
 </body>
 
@@ -62,4 +34,3 @@ if(isset($_SESSION["userTypeAccess"])){?>
 
 
 
->>>>>>> master
