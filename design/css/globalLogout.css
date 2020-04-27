@@ -213,6 +213,6 @@ input[type=submit]{ /*tous les boutons Submit */
     color: #C9C9C9;
     text-align: center;
     padding-top: 40px;
-    line-height: 25px;
     padding-bottom: 40px;
+    line-height: 25px;
 }

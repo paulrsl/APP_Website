@@ -93,7 +93,6 @@ h3{ /* titre sous-menu */
     margin-left:-40px;
     position:fixed;
     margin-top:60px;
-    width:300px;
 }
 
 .nav-item{
@@ -195,19 +194,37 @@ input[type=submit]{
 /*CONTENT*/
 
 .page{
-    margin-top: 50px;
-    padding:30px;
+    margin-top:50px;
+    display:flex;
+    padding:15px;
+    flex-wrap:wrap;
+    min-height:1080px;
 }
 
 .container{
-    min-height:1080px;
     padding:30px;
+    margin:15px;
+    flex:auto;
     background-color:white;
     box-shadow: 0px 0px 10px rgba(44, 62, 80, 0.26);
 }
 
+#box1{
+    height:100%;
+    flex:unset;
+}
+
+#box2{
+    height:100%;
+}
+
+.testIcon{
+    padding:5px;
+}
+
 .subpage{
     color : black;
+    text-decoration: none;
 }
 
 /*FAQ*/
