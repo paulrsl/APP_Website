@@ -130,3 +130,14 @@ define("_LANGUAGE","Language");
 //user list
 
 define("_NOMEMBER","No member");
+
+//Score
+
+define("_SCORECOMMENTUSER","My average score compared to the general average:");
+define("_SCORECOMMENTORGANISM","Average score of my organization compared to other organizations:");
+
+define("_HEARTBEAT","Heartbeat");
+define("_VISUALREFLEX","Visual reflex");
+define("_HEARINGTEST","Hearing test");
+define("_SOUNDREFLEX","Sound reflex");
+define("_AVERAGE","Average");

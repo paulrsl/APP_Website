@@ -29,7 +29,7 @@ define("_DASHBOARD","Tableau de bord");
 define("_CALENDAR","Calendrier");
 
 define("_TESTRESULT","Résultats des tests");
-define("_SCORE","Scores");
+define("_SCORE","Score");
 
 define("_USERLIST","Liste d'utilisateurs");
 define("_PERFORMTEST","Effectuer un test");
@@ -130,3 +130,15 @@ define("_LANGUAGE","Langage");
 //user list
 
 define("_NOMEMBER","Aucun membre");
+
+//Score
+
+define("_SCORECOMMENTUSER","Mon score moyen par rapport à la moyenne générale :");
+define("_SCORECOMMENTORGANISM","Score moyen de mon organisme par rapport aux autres organismes :");
+
+define("_HEARTBEAT","Rythme cardiaque");
+define("_VISUALREFLEX","Réflexe visuel");
+define("_HEARINGTEST","Test d'audition");
+define("_SOUNDREFLEX","Réflexe sonore");
+define("_AVERAGE","Moyenne");
+

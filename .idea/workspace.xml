@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="">
+    <list default="true" id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="Interface graphique modifiée (sur les containers, page et box), IG sur la page dashboard, suppression de la page home.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/fr.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/score.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/score.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/testResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/testResult.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,7 @@
       <workItem from="1587938357139" duration="7317000" />
       <workItem from="1587945974198" duration="274000" />
       <workItem from="1587986233100" duration="13307000" />
+      <workItem from="1588006081241" duration="4243000" />
     </task>
     <task id="LOCAL-00001" summary="FAQ graphique interface">
       <created>1587851406698</created>
@@ -118,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588006031954</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Interface graphique modifiée (sur les containers, page et box), IG sur la page dashboard, suppression de la page home.">
+      <created>1588006095880</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1588006095880</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,19 +155,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="476" y="4" key="#PHP/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587851565437" />
-    <state x="313" y="8" key="CommitChangelistDialog2" timestamp="1588006050083">
+    <state x="313" y="8" key="CommitChangelistDialog2" timestamp="1588006439782">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="313" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588006050083" />
+    <state x="313" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588006439782" />
     <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587945324628" />
     <state x="548" y="155" key="FileChooserDialogImpl" timestamp="1587851658442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587851658442" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1588005917489">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1588006099261">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588005917489" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588006099261" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587945177779" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1588006082530">
       <screen x="0" y="0" width="1536" height="824" />
