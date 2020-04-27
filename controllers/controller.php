@@ -7,7 +7,7 @@
 	}
 	
 	function home(){
-		require "views/home.php";
+		require "views/dashboard.php";
 	}
 	
 	function inscription(){
@@ -39,7 +39,7 @@
             require "views/connection.php";
 
         } else {
-            require "views/home.php";
+            require "views/dashboard.php";
         }
     }
 
@@ -54,7 +54,7 @@
            foreach ($users as $user) {
                if($mailConnection == $user["mail"] && $passwordConnection == $user["password"]){
                    echo $user["id"];
-                   require "views/home.php";
+                   require "views/dashboard.php";
                    $connection = false;
                    break;
                }
@@ -64,6 +64,6 @@
                require "views/connection.php";
            }
        } else {
-    require "views/home.php";
+    require "views/dashboard.php";
 	   }
     }

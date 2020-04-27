@@ -23,7 +23,7 @@
     }
     ?>
 
-    <a id="siteName" href="index.php?page=home"><h1>Infinite Measures</h1></a>
+    <a id="siteName" href="index.php?page=dashboard"><h1>Infinite Measures</h1></a>
     <ul class="main-nav-list">
         <div class="main-nav1">
             <?php

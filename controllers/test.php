@@ -19,7 +19,7 @@
                     $_SESSION["userTypeAccess"] = $user["typeAccess"];
                     $_SESSION["userPicture"] = $user["picture"];
                     $connection = false;
-                    redirection("home");
+                    redirection("dashboard");
                     break;
                 }
             }
