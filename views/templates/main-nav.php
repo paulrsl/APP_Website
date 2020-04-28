@@ -122,7 +122,7 @@
 
             <?php if($_SESSION["userTypeAccess"] != "admin"){?>
                 <li class="nav-item">
-                    <a class="nav-link" >  <!--href="index.php?page=contactUs" -> 2ème page à coder -->
+                    <a class="nav-link" href="index.php?page=contactUs2">
                         <i class="fas fa-paper-plane"></i>
                         <span class="nav-text"> <?php echo _CONTACTUS;?></span>
                     </a>

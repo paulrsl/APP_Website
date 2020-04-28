@@ -47,7 +47,7 @@ define("_NOACCOUNT","No account ?");
 //contact us
 
 define("_CONTACTUS","Contact us");
-define("_MESSAGE","Message");
+define("_MESSAGE","Message :");
 
 //forgot password
 

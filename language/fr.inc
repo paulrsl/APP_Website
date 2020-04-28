@@ -49,7 +49,7 @@ define("_NOACCOUNT","Pas de compte ?");
 //contact us
 
 define("_CONTACTUS","Nous contacter");
-define("_MESSAGE","Message");
+define("_MESSAGE","Message :");
 
 //forgot password
 

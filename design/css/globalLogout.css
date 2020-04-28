@@ -51,8 +51,8 @@ h3{ /* titre sous-menu */
 /*BUTTONS-INPUT*/
 
 textarea{ /*Toutes les zones de texte */
-    border-radius : 5px;
-    border : 1px solid #707070;
+    border-radius : 10px;
+    border : none;
 }
 
 .userInput{ /*Toutes les entrées utilisateurs */
@@ -62,7 +62,7 @@ textarea{ /*Toutes les zones de texte */
     text-align : center;
     color : black;
     border-radius : 10px;
-    border : 0px;
+    border : none;
     font-size : 24px;
     display : block;
     margin-left: auto;
