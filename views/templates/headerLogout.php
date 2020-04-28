@@ -1,3 +1,4 @@
+<html>
 <head>
     <meta charset="utf-8" />
     <title>BIG-MAP</title>
@@ -43,3 +44,4 @@
     }
     ?>
 </div>
+</html>

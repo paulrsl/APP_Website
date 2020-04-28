@@ -20,6 +20,7 @@
             case "addPerson" : addPerson(); break;
             case "tryConnection" : tryConnection(); break;
             case "addFAQ" : addFAQ(); break;
+            case "deleteMessage" : deleteMessageFAQ($_POST['id']); break;
             default : redirection("connection");
         }
     }

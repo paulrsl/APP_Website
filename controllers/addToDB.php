@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
     function addPerson() {
         switch($_SESSION["inscriptionTypeAccess"]){

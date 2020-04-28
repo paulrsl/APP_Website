@@ -24,8 +24,16 @@
 
                             <?php if($_SESSION["userTypeAccess"] == "admin"){?>
 
-                                <input class="smallButton" type="submit" value="<?php echo _MODIFY ?>">
-                                <input class="smallButton" type="submit" value="<?php echo _DELETE ?>">
+                                <form>
+                                    <input class="smallButton" type="submit" value="<?php echo _MODIFY ?>">
+                                </form>
+
+                                <form method="post" action="index.php?action=deleteMessage">
+                                    <input class="smallButton" type="button" value="Delete"
+                                    <?php /*if (isset($ans['id'])){
+                                        deleteMessageFAQ($_POST['id']);
+                                    }*/ ?>>
+                                </form>
 
                             <?php }?>
                             <br>
