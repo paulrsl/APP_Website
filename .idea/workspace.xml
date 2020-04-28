@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/pages/contactUs2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/css/globalLogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/globalLogin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/css/globalLogout.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/globalLogout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/templates/main-nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates/main-nav.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/dashboard.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,7 @@
       <workItem from="1587986233100" duration="13307000" />
       <workItem from="1588006081241" duration="4994000" />
       <workItem from="1588087660880" duration="1182000" />
-      <workItem from="1588107791691" duration="2924000" />
+      <workItem from="1588107791691" duration="3453000" />
     </task>
     <task id="LOCAL-00001" summary="FAQ graphique interface">
       <created>1587851406698</created>
@@ -161,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588109273147</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add contactUs2.php">
+      <created>1588110835948</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1588110835948</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +179,8 @@
     <MESSAGE value="Ajout du style sur les pages : testResult &amp; Score" />
     <MESSAGE value="Last commit GI" />
     <MESSAGE value="Dashboard for all users" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dashboard for all users" />
+    <MESSAGE value="Add contactUs2.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add contactUs2.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Deployment" timestamp="1587851881528">
@@ -188,19 +191,19 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="476" y="4" key="#PHP/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587851565437" />
-    <state x="313" y="8" key="CommitChangelistDialog2" timestamp="1588109272060">
+    <state x="313" y="8" key="CommitChangelistDialog2" timestamp="1588110834343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="313" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588109272060" />
+    <state x="313" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588110834343" />
     <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587945324628" />
     <state x="548" y="155" key="FileChooserDialogImpl" timestamp="1587851658442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587851658442" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1588109298984">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1588110838544">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588109298984" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588110838544" />
     <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587945177779" />
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1588107953408">
       <screen x="0" y="0" width="1536" height="824" />

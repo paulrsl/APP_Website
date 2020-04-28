@@ -21,12 +21,12 @@
 
             <?php }elseif($_SESSION["userTypeAccess"] == "organism"){?>
                 <div class="container flexbox">
-                    <a class="subpage" href="index.php?page=calendar"><h2><?php echo _USERLIST;?></h2></a>
+                    <a class="subpage" href="index.php?page=userList"><h2><?php echo _USERLIST;?></h2></a>
                 </div>
 
             <?php }elseif($_SESSION["userTypeAccess"] == "admin"){?>
                 <div class="container flexbox">
-                    <a class="subpage" href="index.php?page=calendar"><h2><?php echo _MODIFYRESULT;?></h2></a>
+                    <a class="subpage" href="index.php?page=modifyResult"><h2><?php echo _MODIFYRESULT;?></h2></a>
                 </div>
 
             <?php }?>
