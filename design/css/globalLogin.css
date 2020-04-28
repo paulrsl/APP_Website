@@ -216,12 +216,12 @@ input[type=submit]{
 
 /*DASHBOARD*/
 
-#box1{
+.box{
     height:100%;
     flex:unset;
 }
 
-#box2{
+.flexbox{
     height:100%;
 }
 
