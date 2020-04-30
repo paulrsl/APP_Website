@@ -20,6 +20,8 @@
             case "addPerson" : addPerson(); break;
             case "tryConnection" : tryConnection(); break;
             case "addFAQ" : addFAQ(); break;
+            case "performTest" : performTest(); break;
+
             default : redirection("connection");
         }
     }

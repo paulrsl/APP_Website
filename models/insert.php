@@ -90,3 +90,74 @@
         $req->execute();
         $req->closeCursor();
     }
+
+    function insertResult($id, $visual, $sound, $tone){
+        $db = dbConnect();
+
+        if($visual != null){
+            $testIdVisual = getLastIdTest("testvisualstimulus")->fetchAll()[0][0];
+            if($testIdVisual == null){
+                $testIdVisual=0;
+            }else{
+                $testIdVisual++;
+            }
+            for($i = 0; $i<sizeof($visual[0]); $i++){
+                $req = $db->prepare("INSERT INTO testvisualstimulus(idTest, value, heartBeat, temperature) VALUES(:idTest, :value, :heartBeat, :temperature)");
+                $req->bindParam("idTest",$testIdVisual);
+                $req->bindParam("value", $visual[0][$i]);
+                $req->bindParam("heartBeat", $visual[1][$i]);
+                $req->bindParam("temperature", $visual[2][$i]);
+                $req->execute();
+            }
+
+        }else{
+            $testIdVisual = null;
+        }
+
+        if($sound != null){
+            $testIdSound = getLastIdTest("testsoundstimulus")->fetchAll()[0][0];
+            if($testIdSound == null){
+                $testIdSound=0;
+            }else{
+                $testIdSound++;
+            }
+            for($i = 0; $i<sizeof($sound[0]); $i++){
+                $req = $db->prepare("INSERT INTO testsoundstimulus(idTest, value, heartBeat, temperature) VALUES(:idTest, :value, :heartBeat, :temperature)");
+                $req->bindParam("idTest",$testIdSound);
+                $req->bindParam("value", $sound[0][$i]);
+                $req->bindParam("heartBeat", $sound[1][$i]);
+                $req->bindParam("temperature", $sound[2][$i]);
+                $req->execute();
+            }
+        }else{
+            $testIdSound = null;
+        }
+
+        if($tone != null){
+            $testIdTone = getLastIdTest("testtone")->fetchAll()[0][0];
+            if($testIdTone == null){
+                $testIdTone=0;
+            }else{
+                $testIdTone++;
+            }
+            for($i = 0; $i<sizeof($tone[0]); $i++){
+                $req = $db->prepare("INSERT INTO testtone(idTest, value, heartBeat, temperature) VALUES(:idTest, :value, :heartBeat, :temperature)");
+                $req->bindParam("idTest",$testIdTone);
+                $req->bindParam("value", $tone[0][$i]);
+                $req->bindParam("heartBeat", $tone[1][$i]);
+                $req->bindParam("temperature", $tone[2][$i]);
+                $req->execute();
+            }
+        }else{
+            $testIdTone = null;
+        }
+
+        $req = $db->prepare("INSERT INTO results(userId, idTone, idVisualStimulus, idSoundStimulus) VALUES(:userId, :idTone, :idVisualStimulus, :idSoundStimulus)");
+        $req->bindParam("userId",$id);
+        $req->bindParam("idTone",$testIdTone);
+        $req->bindParam("idVisualStimulus",$testIdVisual);
+        $req->bindParam("idSoundStimulus",$testIdSound);
+
+        $req->execute();
+        $req->closeCursor();
+    }

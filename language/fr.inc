@@ -130,6 +130,7 @@ define("_LANGUAGE","Langage");
 //user list
 
 define("_NOMEMBER","Aucun membre");
+define("_USERID","ID utilisateur");
 
 //Score
 

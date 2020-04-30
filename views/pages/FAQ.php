@@ -15,7 +15,7 @@
 
                 <ul class="faq-list">
                 <?php
-                $faq = getFAQ($_SESSION["userLanguage"])->fetchAll();
+                $faq = getFAQ($_SESSION["language"])->fetchAll();
                 foreach ($faq as $ans){
                     ?>
                     <li class="faq-item">
