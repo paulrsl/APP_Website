@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="92c12f3d-2baa-4166-8d14-84f5ad64a1f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/addToDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/addToDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/FAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/FAQ.php" afterDir="false" />
-    </list>
+    <list default="true" id="92c12f3d-2baa-4166-8d14-84f5ad64a1f4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +64,7 @@
       <workItem from="1588166286028" duration="1342000" />
       <workItem from="1588232559500" duration="1200000" />
       <workItem from="1588252443600" duration="3285000" />
-      <workItem from="1588429186951" duration="330000" />
+      <workItem from="1588429186951" duration="570000" />
     </task>
     <task id="LOCAL-00001" summary="Version propre de la branche Max">
       <created>1588149431860</created>
@@ -88,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588149658992</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ajout de la supression dans la FAQ">
+      <created>1588429553459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588429553459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version propre de la branche Max" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version propre de la branche Max" />
+    <MESSAGE value="Ajout de la supression dans la FAQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la supression dans la FAQ" />
   </component>
 </project>
