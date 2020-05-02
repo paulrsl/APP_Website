@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="">
+    <list default="true" id="92c12f3d-2baa-4166-8d14-84f5ad64a1f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/models/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/addToDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/addToDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/FAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/FAQ.php" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,212 +22,93 @@
     </execution>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Max" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1b2yzRZS5dBMh3ryiJooKgxt1O0" />
+  <component name="ProjectId" id="1bCvUbd2k6gIBEAp8xSaEIuQhJ1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\APP_Website\views\pages" />
-    </key>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="controller.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/APP_Website/controllers/controller.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.controller.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="" />
-      <created>1587844745272</created>
+      <changelist id="92c12f3d-2baa-4166-8d14-84f5ad64a1f4" name="Default Changelist" comment="" />
+      <created>1588148906352</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587844745272</updated>
-      <workItem from="1587844748852" duration="66000" />
-      <workItem from="1587844816477" duration="11581000" />
-      <workItem from="1587857505031" duration="1444000" />
-      <workItem from="1587858984337" duration="577000" />
-      <workItem from="1587863569608" duration="504000" />
-      <workItem from="1587903644919" duration="17794000" />
-      <workItem from="1587938357139" duration="7317000" />
-      <workItem from="1587945974198" duration="274000" />
-      <workItem from="1587986233100" duration="13307000" />
-      <workItem from="1588006081241" duration="4994000" />
-      <workItem from="1588087660880" duration="1182000" />
-      <workItem from="1588107791691" duration="3453000" />
+      <updated>1588148906352</updated>
+      <workItem from="1588148907560" duration="64000" />
+      <workItem from="1588148972604" duration="5774000" />
+      <workItem from="1588166286028" duration="1342000" />
+      <workItem from="1588232559500" duration="1200000" />
+      <workItem from="1588252443600" duration="3285000" />
+      <workItem from="1588429186951" duration="330000" />
     </task>
-    <task id="LOCAL-00001" summary="FAQ graphique interface">
-      <created>1587851406698</created>
+    <task id="LOCAL-00001" summary="Version propre de la branche Max">
+      <created>1588149431860</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1587851406698</updated>
+      <updated>1588149431860</updated>
     </task>
-    <task id="LOCAL-00002" summary="FAQ graphique interface">
-      <created>1587851755686</created>
+    <task id="LOCAL-00002" summary="Version propre de la branche Max">
+      <created>1588149658992</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1587851755686</updated>
+      <updated>1588149658992</updated>
     </task>
-    <task id="LOCAL-00003" summary="FAQ graphique interface">
-      <created>1587852010855</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1587852010855</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Main-nav position fixed + manage access rights">
-      <created>1587856877042</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1587856877042</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Responsive nav-bar + buttons &amp; textarea">
-      <created>1587858501003</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1587858501003</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Buttons edit (by Paul)">
-      <created>1587859454812</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1587859454812</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Ré-organisation complète de la structure du site + code mis au propre (partie graphique notamment)">
-      <created>1587945171746</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1587945171746</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Ré-organisation complète de la structure du site + code mis au propre (partie graphique notamment)">
-      <created>1587945326373</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1587945326373</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Interface graphique modifiée (sur les containers, page et box), IG sur la page dashboard, suppression de la page home.">
-      <created>1588005914795</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1588005914795</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Interface graphique modifiée (sur les containers, page et box), IG sur la page dashboard, suppression de la page home.">
-      <created>1588006031954</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1588006031954</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Interface graphique modifiée (sur les containers, page et box), IG sur la page dashboard, suppression de la page home.">
-      <created>1588006095880</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1588006095880</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Ajout du style sur les pages : testResult &amp; Score">
-      <created>1588012561600</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1588012561600</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Last commit GI">
-      <created>1588108402119</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1588108402119</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Dashboard for all users">
-      <created>1588109273147</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1588109273147</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Add contactUs2.php">
-      <created>1588110835948</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1588110835948</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="FAQ graphique interface" />
-    <MESSAGE value="Main-nav position fixed + manage access rights" />
-    <MESSAGE value="Responsive nav-bar + buttons &amp; textarea" />
-    <MESSAGE value="Buttons edit (by Paul)" />
-    <MESSAGE value="Ré-organisation complète de la structure du site + code mis au propre (partie graphique notamment)" />
-    <MESSAGE value="Interface graphique modifiée (sur les containers, page et box), IG sur la page dashboard, suppression de la page home." />
-    <MESSAGE value="Ajout du style sur les pages : testResult &amp; Score" />
-    <MESSAGE value="Last commit GI" />
-    <MESSAGE value="Dashboard for all users" />
-    <MESSAGE value="Add contactUs2.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add contactUs2.php" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="WindowStateProjectService">
-    <state x="361" y="72" key="#Deployment" timestamp="1587851881528">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="72" key="#Deployment/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587851881528" />
-    <state x="476" y="4" key="#PHP" timestamp="1587851565437">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="476" y="4" key="#PHP/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587851565437" />
-    <state x="313" y="8" key="CommitChangelistDialog2" timestamp="1588110834343">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="313" y="8" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588110834343" />
-    <state x="393" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587945324628" />
-    <state x="548" y="155" key="FileChooserDialogImpl" timestamp="1587851658442">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="548" y="155" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587851658442" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1588110838544">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588110838544" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587945177779" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1588107953408">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588107953408" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587986327558" />
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587852146054">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="578" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1587852146054" />
-    <state x="515" y="164" width="738" height="606" key="find.popup" timestamp="1588003726162">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="515" y="164" width="738" height="606" key="find.popup/0.0.1536.824/1920.0.1280.984@0.0.1536.824" timestamp="1588003726162" />
-    <state x="463" y="144" width="738" height="606" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1587993737094" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1587925662974">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1587925662974" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version propre de la branche Max" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version propre de la branche Max" />
   </component>
 </project>
