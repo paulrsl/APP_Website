@@ -68,5 +68,15 @@
         }
     }
 
+function delete(){
+    deleteMessageFAQ();
+    redirection("FAQ");
+}
+
+function modify(){
+        modifyMessageFAQ();
+        redirection("FAQ");
+}
+
 
 

@@ -16,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Max" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,7 +60,11 @@
       <option name="presentableId" value="Default" />
       <updated>1588148906352</updated>
       <workItem from="1588148907560" duration="64000" />
-      <workItem from="1588148972604" duration="677000" />
+      <workItem from="1588148972604" duration="5774000" />
+      <workItem from="1588166286028" duration="1342000" />
+      <workItem from="1588232559500" duration="1200000" />
+      <workItem from="1588252443600" duration="3285000" />
+      <workItem from="1588429186951" duration="570000" />
     </task>
     <task id="LOCAL-00001" summary="Version propre de la branche Max">
       <created>1588149431860</created>
@@ -69,7 +73,21 @@
       <option name="project" value="LOCAL" />
       <updated>1588149431860</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Version propre de la branche Max">
+      <created>1588149658992</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588149658992</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ajout de la supression dans la FAQ">
+      <created>1588429553459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588429553459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,7 +98,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -88,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version propre de la branche Max" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version propre de la branche Max" />
+    <MESSAGE value="Ajout de la supression dans la FAQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de la supression dans la FAQ" />
   </component>
 </project>

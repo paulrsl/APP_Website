@@ -15,7 +15,7 @@
 
                 <ul class="faq-list">
                 <?php
-                $faq = getFAQ($_SESSION["userLanguage"])->fetchAll();
+                $faq = getFAQ($_SESSION["language"])->fetchAll();
                 foreach ($faq as $ans){
                     ?>
                     <li class="faq-item">
@@ -24,9 +24,9 @@
 
                             <?php if($_SESSION["userTypeAccess"] == "admin"){?>
 
-                                <input class="smallButton" type="submit" value="<?php echo _MODIFY ?>">
-                                <input class="smallButton" type="submit" value="<?php echo _DELETE ?>">
+                                <a href="index.php?action=modifyMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'><? echo _MODIFY ?></a>
 
+                                <a href="index.php?action=deleteMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'><? echo _DELETE ?></a>
                             <?php }?>
                             <br>
                             <a class="faq-answer"><?= $ans["answer"]; ?><br></a>

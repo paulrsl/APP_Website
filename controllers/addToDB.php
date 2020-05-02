@@ -85,3 +85,7 @@
             redirection("FAQ");
         }
     }
+
+    function modifyMessageFAQ(){
+
+    }
