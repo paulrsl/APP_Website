@@ -13,6 +13,16 @@
 
             <?php if($_SESSION["userTypeAccess"] == "organism"){?>
 
+                <form method="post" action="index.php?action=performTest" enctype="multipart/form-data">
+                    <p>
+                        <label><?php echo _USERID;?> :<br>
+                            <input class="userInput" type='text' name="userID" placeholder="<?php echo _USERID;?>" required>
+                        </label>
+                    </p>
+
+                    <input class="userInput blueButton" type="submit" value="<?php echo _SUBMIT;?>" >
+                </form>
+
             <?php }else{ include "views/templates/accessDeny.php"; ?>
 
             <?php }?>

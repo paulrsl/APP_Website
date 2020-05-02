@@ -14,6 +14,13 @@
         return $req;
     }
 
+    function getLastIdTest($where){
+        $db = dbConnect();
+        $req = $db->query("SELECT idTest FROM ".$where." ORDER BY idTest DESC LIMIT 1");
+
+        return $req;
+    }
+
 
     function getGTU($language){
         $db = dbConnect();
