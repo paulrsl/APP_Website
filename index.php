@@ -8,6 +8,7 @@
     require "models/get.php";
     require "models/insert.php";
     require "models/delete.php";
+    require "models/modify.php";
 
 
 session_start();

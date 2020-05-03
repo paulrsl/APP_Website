@@ -86,6 +86,6 @@
         }
     }
 
-    function modifyMessageFAQ(){
+    /*function modifyMessageFAQ(){
 
-    }
+    }*/

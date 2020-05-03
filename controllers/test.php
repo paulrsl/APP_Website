@@ -69,8 +69,8 @@
     }
 
 function delete(){
-    deleteMessageFAQ();
-    redirection("FAQ");
+        deleteMessageFAQ();
+        redirection("FAQ");
 }
 
 function modify(){

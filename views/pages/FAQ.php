@@ -22,12 +22,22 @@
                         <div>
                             <a class="faq-question"><?= $ans["question"]; ?></a>
 
-                            <?php if($_SESSION["userTypeAccess"] == "admin"){?>
+                            <?php if($_SESSION["userTypeAccess"] == "admin") {
 
-                                <a href="index.php?action=modifyMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'><? echo _MODIFY ?></a>
+                                if ($_SESSION["language"] == "EN") {
+                                    ?>
 
-                                <a href="index.php?action=deleteMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'><? echo _DELETE ?></a>
-                            <?php }?>
+                                    <a href="index.php?action=modifyMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'>Modify</a>
+                                    <a href="index.php?action=deleteMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'>Delete</a>
+
+                                <?php
+                                } elseif ($_SESSION["language"] == "FR") {
+                                    ?>
+                                    <a href="index.php?action=modifyMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'>Modifier</a>
+                                    <a href="index.php?action=deleteMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'>Supprimer</a>
+
+                                <?php }
+                            }?>
                             <br>
                             <a class="faq-answer"><?= $ans["answer"]; ?><br></a>
                         </div>
