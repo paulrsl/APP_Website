@@ -142,6 +142,7 @@
     <?php } ?>
 
     <div id="userType">
+        Mode :
         <?php
         if(isset($_SESSION["userTypeAccess"])){
             if($_SESSION["userTypeAccess"] == "user"){
@@ -153,6 +154,11 @@
             }
         }else{
         } ?>
+    </div>
+
+    <div id="userID">
+        ID N°
+        <?php echo $_SESSION["userId"]; ?>
     </div>
 
 </div>

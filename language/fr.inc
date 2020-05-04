@@ -143,3 +143,7 @@ define("_HEARINGTEST","Test d'audition");
 define("_SOUNDREFLEX","Réflexe sonore");
 define("_AVERAGE","Moyenne");
 
+//Test result
+
+define("_VALUE","Valeur");
+define("_TEMPERATURE","Température");

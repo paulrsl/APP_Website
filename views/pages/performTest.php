@@ -20,7 +20,7 @@
                         </label>
                     </p>
 
-                    <input class="userInput blueButton" type="submit" value="<?php echo _SUBMIT;?>" >
+                    <input class="bigButton" type="submit" value="<?php echo _SUBMIT;?>" >
                 </form>
 
             <?php }else{ include "views/templates/accessDeny.php"; ?>

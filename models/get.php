@@ -56,3 +56,14 @@
 
         return $req;
     }
+
+    function getIdTest(){ //retourne l'idTest correspondant à l'userId
+        $idTest=0;
+        $testresults = getAll("results")->fetchAll();
+        foreach ($testresults as $result) {
+            if($_SESSION["userId"] == $result["userId"]) {
+                $idTest=$result["idTone"];
+            }
+        }
+        return $idTest;
+    }

@@ -86,6 +86,35 @@
         }
     }
 
-    /*function modifyMessageFAQ(){
+    function performTest(){
+        if ($_POST["userID"]){
 
-    }*/
+            $userID = htmlspecialchars($_POST["userID"]);
+            $visualResult = generateResults("visualStimulus",15);
+            $soundResult = generateResults("soundStimulus",15);
+            $toneResult = generateResults("tone",10);
+
+            insertResult($userID, $visualResult, $soundResult, $toneResult);
+
+            redirection("performTest");
+        }
+    }
+
+    function generateResults($testType, $numberOfTests){
+
+        switch ($testType){ //3 random : 1er => score, 2e => rythme cardiaque, 3e => temperature
+            case "soundStimulus" : return array(randomNumber(100, 1000, $numberOfTests),randomNumber(40, 120, $numberOfTests),randomNumber(35, 42, $numberOfTests)); break;
+            case "visualStimulus" : return  array(randomNumber(100, 1000, $numberOfTests),randomNumber(40, 120, $numberOfTests),randomNumber(35, 42, $numberOfTests)); break;
+            case "tone" : return array(randomNumber(0, 100, $numberOfTests),randomNumber(40, 120, $numberOfTests),randomNumber(35, 42, $numberOfTests)); break;
+
+        }
+
+    }
+
+    function randomNumber($min, $max, $numberOfTests){
+        $results = array();
+        for ($i=0; $i<$numberOfTests; $i++){
+            $results[] = rand($min, $max);
+        }
+        return $results;
+    }

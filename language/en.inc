@@ -142,3 +142,8 @@ define("_VISUALREFLEX","Visual reflex");
 define("_HEARINGTEST","Hearing test");
 define("_SOUNDREFLEX","Sound reflex");
 define("_AVERAGE","Average");
+
+//Test result
+
+define("_VALUE","Value");
+define("_TEMPERATURE","Temperature");
