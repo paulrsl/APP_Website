@@ -58,7 +58,7 @@
     }
 
     function getIdTest(){ //retourne l'idTest correspondant à l'userId
-        $idTest=0;
+        $idTest=null;
         $testresults = getAll("results")->fetchAll();
         foreach ($testresults as $result) {
             if($_SESSION["userId"] == $result["userId"]) {
