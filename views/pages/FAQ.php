@@ -24,10 +24,10 @@
 
                             <?php if($_SESSION["userTypeAccess"] == "admin") {?>
 
-                                    <a href="index.php?page=FAQ&IDMessage=<?= $ans['id'] ?>" class='smallButton'><?php echo _MODIFY ?></a>
-                                    <a href="index.php?action=deleteMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'><?php echo _DELETE?></a>
+                                <a href="index.php?page=FAQ&IDMessage=<?= $ans['id'] ?>" class='smallButton'><?php echo _MODIFY ?></a>
+                                <a href="index.php?action=deleteMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'><?php echo _DELETE?></a>
 
-                                <?php }?>
+                                <?php } ?>
                             <br>
                             <a class="faq-answer"><?= $ans["answer"]; ?><br></a>
                         </div>
@@ -38,7 +38,6 @@
                 <br>
                 <?php if($_SESSION["userTypeAccess"] == "admin"){?>
 
-
                     <?php echo _ADDQUESTION ?>
                     <?php if(isset($_GET['IDMessage'])){ ?>
 
@@ -46,11 +45,11 @@
 
                     <?php }else{ ?>
 
-                        <form method="post" action="index.php?action=addFAQ" enctype="multipart/form-data">
+                         <form method="post" action="index.php?action=addFAQ" enctype="multipart/form-data">
 
                     <?php } ?>
 
-                            <p>
+                        <p>
                             <label><?php echo _QUESTION;?><br>
                                 <textarea name="question" rows="3" cols="60"></textarea>
                             </label>
