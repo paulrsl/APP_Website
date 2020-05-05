@@ -8,9 +8,9 @@
     require "models/get.php";
     require "models/insert.php";
     require "models/delete.php";
+    require "models/modify.php";
 
-
-session_start();
+    session_start();
 
     if(isset($_SESSION["language"])==false){
         language("EN"); //Langue par défaut
@@ -22,7 +22,8 @@ session_start();
             case "addPerson" : addPerson(); break;
             case "tryConnection" : tryConnection(); break;
             case "addFAQ" : addFAQ(); break;
-            case "deleteMessageFAQ" : delete(); break;
+            case "performTest" : performTest(); break;
+
             default : redirection("connection");
         }
     }
