@@ -22,22 +22,12 @@
                         <div>
                             <a class="faq-question"><?= $ans["question"]; ?></a>
 
-                            <?php if($_SESSION["userTypeAccess"] == "admin") {
+                            <?php if($_SESSION["userTypeAccess"] == "admin") {?>
 
-                                if ($_SESSION["language"] == "EN") {
-                                    ?>
+                                    <a href="index.php?page=FAQ&IDMessage=<?= $ans['id'] ?>" class='smallButton'><?php echo _MODIFY ?></a>
+                                    <a href="index.php?action=deleteMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'><?php echo _DELETE?></a>
 
-                                    <a href="index.php?action=modifyMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'>Modify</a>
-                                    <a href="index.php?action=deleteMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'>Delete</a>
-
-                                <?php
-                                } elseif ($_SESSION["language"] == "FR") {
-                                    ?>
-                                    <a href="index.php?action=modifyMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'>Modifier</a>
-                                    <a href="index.php?action=deleteMessageFAQ&amp;IDMessage=<?= $ans['id'] ?>" class='smallButton'>Supprimer</a>
-
-                                <?php }
-                            }?>
+                                <?php }?>
                             <br>
                             <a class="faq-answer"><?= $ans["answer"]; ?><br></a>
                         </div>
@@ -48,10 +38,19 @@
                 <br>
                 <?php if($_SESSION["userTypeAccess"] == "admin"){?>
 
-                    <?php echo _ADDQUESTION ?>
-                    <form method="post" action="index.php?action=addFAQ" enctype="multipart/form-data">
 
-                        <p>
+                    <?php echo _ADDQUESTION ?>
+                    <?php if(isset($_GET['IDMessage'])){ ?>
+
+                        <form method="post" action="index.php?action=addFAQ&amp;IDMessage=<?= $_GET['IDMessage'] ?>" enctype="multipart/form-data">
+
+                    <?php }else{ ?>
+
+                        <form method="post" action="index.php?action=addFAQ" enctype="multipart/form-data">
+
+                    <?php } ?>
+
+                            <p>
                             <label><?php echo _QUESTION;?><br>
                                 <textarea name="question" rows="3" cols="60"></textarea>
                             </label>

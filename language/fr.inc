@@ -126,6 +126,8 @@ define("_ADDQUESTION","Ajouter une question/réponse :");
 define("_QUESTION","Question");
 define("_ANSWER","Réponse");
 define("_LANGUAGE","Langage");
+define("_MODIFYQUESTION", "Modifier une question/réponse :");
+
 
 //user list
 

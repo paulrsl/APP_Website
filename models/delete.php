@@ -7,6 +7,6 @@ function deleteMessageFAQ(){
         $req = $db->prepare("DELETE FROM `faq` WHERE id=?");
         $req -> execute(array($idToDelete));
         $req -> closeCursor();
-
     }
+    header("Location: index.php?page=FAQ");
 }

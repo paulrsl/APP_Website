@@ -73,48 +73,25 @@
         return $result;
     }
 
-    function addFAQ(){
-        if ($_POST["question"] && $_POST["answer"] && $_POST["language"]){
+    function addFAQ()
+    {
+        if(isset($_POST["question"]) && isset($_POST["answer"]) && isset($_POST["language"])) {
 
             $question = htmlspecialchars($_POST["question"]);
             $answer = htmlspecialchars($_POST["answer"]);
             $language = htmlspecialchars($_POST["language"]);
 
-            insertFaq($question, $answer, $language);
+            if (isset($_GET['IDMessage'])) {
+                $idToModify = $_GET['IDMessage'];
+                $db = dbConnect();
+                $req = $db->prepare("UPDATE `faq` SET question=?, answer=?, language=? WHERE id=?");
+                $req->execute(array($question, $answer, $language, $idToModify));
+                $req->closeCursor();
 
-            redirection("FAQ");
+            }else{
+                insertFaq($question, $answer, $language);
+            }
+            header("Location: index.php?page=FAQ");
         }
     }
 
-    function performTest(){
-        if ($_POST["userID"]){
-
-            $userID = htmlspecialchars($_POST["userID"]);
-            $visualResult = generateResults("visualStimulus",15);
-            $soundResult = generateResults("soundStimulus",15);
-            $toneResult = generateResults("tone",10);
-
-            insertResult($userID, $visualResult, $soundResult, $toneResult);
-
-            redirection("performTest");
-        }
-    }
-
-    function generateResults($testType, $numberOfTests){
-
-        switch ($testType){ //3 random : 1er => score, 2e => rythme cardiaque, 3e => temperature
-            case "soundStimulus" : return array(randomNumber(100, 1000, $numberOfTests),randomNumber(40, 120, $numberOfTests),randomNumber(35, 42, $numberOfTests)); break;
-            case "visualStimulus" : return  array(randomNumber(100, 1000, $numberOfTests),randomNumber(40, 120, $numberOfTests),randomNumber(35, 42, $numberOfTests)); break;
-            case "tone" : return array(randomNumber(0, 100, $numberOfTests),randomNumber(40, 120, $numberOfTests),randomNumber(35, 42, $numberOfTests)); break;
-
-        }
-
-    }
-
-    function randomNumber($min, $max, $numberOfTests){
-        $results = array();
-        for ($i=0; $i<$numberOfTests; $i++){
-            $results[] = rand($min, $max);
-        }
-        return $results;
-    }
