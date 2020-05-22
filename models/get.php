@@ -38,7 +38,7 @@
 
     function getPerson(){
         $db = dbConnect();
-        $req = $db->query("SELECT mail, firstName, lastName, typeAccess FROM person");
+        $req = $db->query("SELECT mail, firstName, lastName, typeAccess, id FROM person");
 
         return $req;
     }
@@ -52,7 +52,7 @@
 
     function getUserInOrganism($idOrganism){
         $db = dbConnect();
-        $req = $db->query("SELECT mail, firstName, lastName FROM person LEFT JOIN user ON person.id=user.personId WHERE typeAccess='user' AND organismId =".$idOrganism);
+        $req = $db->query("SELECT user.id,mail, firstName, lastName FROM person LEFT JOIN user ON person.id=user.personId WHERE typeAccess='user' AND organismId =".$idOrganism);
 
         return $req;
     }
@@ -66,4 +66,18 @@
             }
         }
         return $idTest;
+    }
+
+    function getResults($userId){
+        $db = dbConnect();
+        $req = $db->query("SELECT * FROM `results` WHERE userId=".$userId);
+
+        return $req;
+    }
+
+    function getQuestionAnswer($idFaq){
+        $db = dbConnect();
+        $req = $db->query("SELECT question,answer,language FROM faq WHERE id=".$idFaq);
+
+        return $req;
     }

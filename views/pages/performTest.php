@@ -12,16 +12,21 @@
             <h2 class="subpage"><?php echo _PERFORMTEST;?></h2>
 
             <?php if($_SESSION["userTypeAccess"] == "organism"){?>
-
-                <form method="post" action="index.php?action=performTest" enctype="multipart/form-data">
-                    <p>
-                        <label><?php echo _USERID;?> :<br>
-                            <input class="userInput" type='text' name="userID" placeholder="<?php echo _USERID;?>" required>
-                        </label>
-                    </p>
-
-                    <input class="bigButton" type="submit" value="<?php echo _SUBMIT;?>" >
-                </form>
+                <?php
+                $id = getOrganismId($_SESSION["userId"])->fetchAll();
+                if(empty($id) == false){ ?>
+                    <ul>
+                        <?php $users = getUserInOrganism($id[0][0])->fetchAll();
+                        foreach ($users as $user){?>
+                            <li>
+                                <?= $user["mail"]?>
+                                <?= $user["firstName"]?>
+                                <?= $user["lastName"]?>
+                                <a href="index.php?action=performTest&amp;IDUser=<?= $user["id"] ?>" class='smallButton'><?php echo _PERFORMTEST?></a>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                <?php }else{ echo _NOMEMBER; } ?>
 
             <?php }else{ include "views/templates/accessDeny.php"; ?>
 

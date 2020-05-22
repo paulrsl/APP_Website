@@ -3,6 +3,7 @@
     require "controllers/language.php";
     require "controllers/addToDB.php";
     require "controllers/test.php";
+    require "controllers/manage.php";
     require "models/dbConnect.php";
     require "models/createDB.php";
     require "models/get.php";
@@ -21,8 +22,12 @@
         switch ($action){
             case "addPerson" : addPerson(); break;
             case "tryConnection" : tryConnection(); break;
-            case "addFAQ" : addFAQ(); break;
+            case "manageFAQ" : manageFAQ(); break;
             case "performTest" : performTest(); break;
+            case "deleteMessageFAQ" : deleteMessageFAQ(); break;
+            case "deleteAccessRight" : deleteAccessRight(); break;
+            case "manageProfil" : manageProfil(); break;
+            case "modifyAccessRight" : modifyAccessRight(); break;
 
             default : redirection("connection");
         }

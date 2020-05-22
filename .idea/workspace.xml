@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="" />
+    <list default="true" id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/addToDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/addToDB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/redirection.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/redirection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/JavaScript/inscriptionJS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/globalLogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/globalLogin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/fr.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/get.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/get.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/insert.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/FAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/FAQ.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/hearingTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hearingTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/inscription2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/manageAccessRight.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/manageAccessRight.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/myProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/myProfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/performTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/performTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/soundReflex.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/soundReflex.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/visualReflex.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/visualReflex.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +44,11 @@
   </component>
   <component name="ProjectId" id="1bCvUbd2k6gIBEAp8xSaEIuQhJ1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -58,7 +84,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92c12f3d-2baa-4166-8d14-84f5ad64a1f4" name="Default Changelist" comment="" />
+      <changelist id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="" />
       <created>1588148906352</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -73,6 +99,19 @@
       <workItem from="1588589212134" duration="31000" />
       <workItem from="1588590746589" duration="2010000" />
       <workItem from="1588663836067" duration="5622000" />
+      <workItem from="1588683890639" duration="114000" />
+      <workItem from="1588755350881" duration="4520000" />
+      <workItem from="1589533296028" duration="17000" />
+      <workItem from="1589817531841" duration="278000" />
+      <workItem from="1589824437912" duration="13000" />
+      <workItem from="1589824453190" duration="9050000" />
+      <workItem from="1589871776339" duration="1680000" />
+      <workItem from="1589873510889" duration="10000" />
+      <workItem from="1589873808784" duration="5485000" />
+      <workItem from="1589881132831" duration="2404000" />
+      <workItem from="1589891046890" duration="1042000" />
+      <workItem from="1589964815941" duration="10128000" />
+      <workItem from="1590163929401" duration="860000" />
     </task>
     <task id="LOCAL-00001" summary="Version propre de la branche Max">
       <created>1588149431860</created>
@@ -133,5 +172,13 @@
     <MESSAGE value="Ajout de la supression dans la FAQ" />
     <MESSAGE value="Quelqies améliorations à la suppression FAQ" />
     <option name="LAST_COMMIT_MESSAGE" value="Quelqies améliorations à la suppression FAQ" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" />
+    <state x="794" y="443" key="NewPhpFileDialog" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" />
+    <state x="616" y="240" key="run.anything.popup" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" />
   </component>
 </project>

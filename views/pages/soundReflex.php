@@ -14,21 +14,17 @@
             <?php if($_SESSION["userTypeAccess"] == "user"){?>
                 <table id="soundReflexTable">
                     <tr>
+                        <th><?php echo _DATE;?></th>
                         <th><?php echo _VALUE;?></th>
-                        <th><?php echo _HEARTBEAT;?></th>
-                        <th><?php echo _TEMPERATURE;?></th>
                     </tr>
 
-                    <?php $soundReflex = getAll("testsoundstimulus")->fetchAll();
+                    <?php $soundReflex = getResults($_SESSION["userId"])->fetchAll();
 
-                    foreach ($soundReflex as $sr) {
-                        if(getIdTest() == $sr["idTest"]){?>
-                            <tr>
-                                <td><?php echo $sr["value"];?></td>
-                                <td><?php echo $sr["heartBeat"];?></td>
-                                <td><?php echo $sr["temperature"];?></td>
-                            </tr>
-                        <?php }?>
+                    foreach ($soundReflex as $sr) { ?>
+                        <tr>
+                            <td><?php echo $sr["testDate"];?></td>
+                            <td><?php echo $sr["averageSoundStimulus"];?></td>
+                        </tr>
                     <?php }?>
 
                 </table>

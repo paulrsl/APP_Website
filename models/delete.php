@@ -10,3 +10,14 @@ function deleteMessageFAQ(){
     }
     header("Location: index.php?page=FAQ");
 }
+
+function deleteAccessRight(){
+    if (isset($_GET['IDUser'])){
+        $idToDelete = $_GET['IDUser'];
+        $db = dbConnect();
+        $req = $db->prepare("DELETE FROM `person` WHERE id=?");
+        $req -> execute(array($idToDelete));
+        $req -> closeCursor();
+    }
+    header("Location: index.php?page=manageAccessRight");
+}

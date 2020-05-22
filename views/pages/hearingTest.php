@@ -14,21 +14,17 @@
             <?php if($_SESSION["userTypeAccess"] == "user"){?>
                 <table id="hearingTestTable">
                     <tr>
+                        <th><?php echo _DATE;?></th>
                         <th><?php echo _VALUE;?></th>
-                        <th><?php echo _HEARTBEAT;?></th>
-                        <th><?php echo _TEMPERATURE;?></th>
                     </tr>
 
-                    <?php $hearingTest = getAll("testtone")->fetchAll();
+                    <?php $hearingTest = getResults($_SESSION["userId"])->fetchAll();
 
-                    foreach ($hearingTest as $ht) {
-                        if(getIdTest() == $ht["idTest"]){?>
-                            <tr>
-                                <td><?php echo $ht["value"];?></td>
-                                <td><?php echo $ht["heartBeat"];?></td>
-                                <td><?php echo $ht["temperature"];?></td>
-                            </tr>
-                        <?php }?>
+                    foreach ($hearingTest as $ht) { ?>
+                        <tr>
+                            <td><?php echo $ht["testDate"];?></td>
+                            <td><?php echo $ht["averageTone"];?></td>
+                        </tr>
                     <?php }?>
 
                 </table>

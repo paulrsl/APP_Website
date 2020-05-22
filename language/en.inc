@@ -146,4 +146,13 @@ define("_AVERAGE","Average");
 //Test result
 
 define("_VALUE","Value");
+define("_DATE","Date");
 define("_TEMPERATURE","Temperature");
+
+// manage access right
+
+define("_ACCOUNTYPE", "The account is currently of type: ");
+
+//Other
+
+define("_PROFILPICTURE","Profil picture");

@@ -58,7 +58,7 @@ h3{ /* titre sous-menu */
     background-color: whitesmoke;
     display:flex;
     align-items : center;
-    justify-content : end;
+    justify-content : flex-end;
     letter-spacing: 1px;
     box-shadow: 0px 0px 40px rgba(44, 62, 80, 0.26);
 }

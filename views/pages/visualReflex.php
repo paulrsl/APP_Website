@@ -14,22 +14,18 @@
             <?php if($_SESSION["userTypeAccess"] == "user"){?>
                 <table id="visualReflexTable">
                     <tr>
+                        <th><?php echo _DATE;?></th>
                         <th><?php echo _VALUE;?></th>
-                        <th><?php echo _HEARTBEAT;?></th>
-                        <th><?php echo _TEMPERATURE;?></th>
                     </tr>
 
-                <?php $visualReflex = getAll("testvisualstimulus")->fetchAll();
+                    <?php $visualReflex = getResults($_SESSION["userId"])->fetchAll();
 
-                foreach ($visualReflex as $vr) {
-                    if(getIdTest() == $vr["idTest"]){?>
-                        <tr>
-                            <td><?php echo $vr["value"];?></td>
-                            <td><?php echo $vr["heartBeat"];?></td>
-                            <td><?php echo $vr["temperature"];?></td>
-                        </tr>
+                    foreach ($visualReflex as $vr) { ?>
+                            <tr>
+                                <td><?php echo $vr["testDate"];?></td>
+                                <td><?php echo $vr["averageVisualStimulus"];?></td>
+                            </tr>
                     <?php }?>
-                <?php }?>
 
                 </table>
 

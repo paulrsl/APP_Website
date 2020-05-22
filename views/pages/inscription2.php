@@ -27,8 +27,7 @@
             <p>
                 <label><?php echo _COMMENT;?>
                     <br>
-                    <textarea name="comment" rows="5" cols="50">
-                    </textarea>
+                    <textarea name="comment" rows="5" cols="50"></textarea>
                 </label>
             </p>
             <br>
