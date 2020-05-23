@@ -81,3 +81,10 @@
 
         return $req;
     }
+
+    function getPassword($id){
+        $db = dbConnect();
+        $req = $db->query("SELECT password FROM person WHERE id=".$id);
+
+        return $req;
+    }

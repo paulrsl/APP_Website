@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="">
+    <list default="true" id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="Ajout modification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/addToDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/addToDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/redirection.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/redirection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/JavaScript/inscriptionJS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/css/globalLogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/globalLogin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/get.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/get.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/FAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/FAQ.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/hearingTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hearingTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/inscription2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/manageAccessRight.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/manageAccessRight.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/pages/myProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/myProfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/performTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/performTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/soundReflex.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/soundReflex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/visualReflex.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/visualReflex.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Max" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,6 +95,7 @@
       <workItem from="1589891046890" duration="1042000" />
       <workItem from="1589964815941" duration="10128000" />
       <workItem from="1590163929401" duration="860000" />
+      <workItem from="1590222811627" duration="3581000" />
     </task>
     <task id="LOCAL-00001" summary="Version propre de la branche Max">
       <created>1588149431860</created>

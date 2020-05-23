@@ -6,7 +6,7 @@
 <?php include "views/templates/headerLogin.php"; ?>
 
 <div class="page">
-    <form class="container">
+    <div class="container">
         <?php
         if(isset($_SESSION["userTypeAccess"])){?>
             <h2 class="subpage"><?php echo _MYPROFIL;?></h2>
@@ -79,7 +79,7 @@
 
         <?php } ?>
 
-    </form>
+    </div>
 
 </div> <!--fin du bloc main-->
 
