@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11cce8d4-a384-4f60-a240-fdfe85f3c4d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/APP_Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/APP_Website.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/addToDB.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/addToDB.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/redirection.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/redirection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/css/globalLogin.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/globalLogin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/css/globalLogout.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/globalLogout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/language/fr.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/fr.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/get.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/get.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/insert.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/insert.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/FAQ.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/FAQ.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/GTU.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/GTU.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/calendar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/calendar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/connection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/contactUs.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/contactUs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/forgotPassword.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/forgotPassword.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/hearingTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/hearingTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/heartBeat.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/inscription.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/inscription2.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/inscription2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/manageAccessRight.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/manageAccessRight.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/myProfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/myProfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/performTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/performTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/presentation.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/presentation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/score.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/score.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/soundReflex.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/soundReflex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/testResult.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/testResult.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/tickets.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/tickets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/userList.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/userList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/pages/visualReflex.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/pages/visualReflex.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/templates/headerLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates/headerLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/templates/headerLogout.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates/headerLogout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/templates/main-nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/templates/main-nav.php" afterDir="false" />
-    </list>
+    <list default="true" id="11cce8d4-a384-4f60-a240-fdfe85f3c4d4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +61,7 @@
       <workItem from="1591184832243" duration="272000" />
       <workItem from="1591187457849" duration="41859000" />
       <workItem from="1591261888075" duration="297000" />
-      <workItem from="1591262298623" duration="1365000" />
+      <workItem from="1591262298623" duration="2044000" />
     </task>
     <servers />
   </component>
