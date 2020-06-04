@@ -12,8 +12,8 @@
             session_start();
             language($language);
             require "views/pages/inscription.php";
-        }elseif($page == "inscription2"){
-            if(isset($_SESSION["inscriptionMail"])==false) {
+        }elseif($page == "inscription2") {
+            if (isset($_SESSION["inscriptionMail"]) == false) {
                 saveInscriptionInformations();
             }
             require "views/pages/inscription2.php";

@@ -27,22 +27,19 @@
         <?php } ?>
         <br>
         <img src="pictures/trophy-solid-red.png" class="scoreIcon" alt="trophy-solid-red"/>
-        <img src="pictures/trophy-solid-green.png" class="scoreIcon" alt="trophy-solid-green"/>
-        <img src="pictures/trophy-solid-purple.png" class="scoreIcon" alt="trophy-solid-purple"/>
         <img src="pictures/trophy-solid-yellow.png" class="scoreIcon" alt="trophy-solid-yellow"/>
+        <img src="pictures/trophy-solid-purple.png" class="scoreIcon" alt="trophy-solid-purple"/>
+
 
         <br>
 
         <div class="scoreName" id="red">
-            <?php echo _HEARTBEAT;?>
-        </div>
-        <div class="scoreName" id="green">
             <?php echo _VISUALREFLEX;?>
         </div>
-        <div class="scoreName" id="purple">
+        <div class="scoreName" id="yellow">
             <?php echo _HEARINGTEST;?>
         </div>
-        <div class="scoreName" id="yellow">
+        <div class="scoreName" id="purple">
             <?php echo _SOUNDREFLEX;?>
         </div>
 
@@ -51,13 +48,10 @@
         <div class="scoreName" id="red">
             <?php echo _SCORE;?>
         </div>
-        <div class="scoreName" id="green">
+        <div class="scoreName" id="yellow">
             <?php echo _SCORE;?>
         </div>
         <div class="scoreName" id="purple">
-            <?php echo _SCORE;?>
-        </div>
-        <div class="scoreName" id="yellow">
             <?php echo _SCORE;?>
         </div>
 
@@ -66,13 +60,10 @@
         <div class="scoreName" id="red">
             <?php echo _AVERAGE;?>
         </div>
-        <div class="scoreName" id="green">
+        <div class="scoreName" id="yellow">
             <?php echo _AVERAGE;?>
         </div>
         <div class="scoreName" id="purple">
-            <?php echo _AVERAGE;?>
-        </div>
-        <div class="scoreName" id="yellow">
             <?php echo _AVERAGE;?>
         </div>
 

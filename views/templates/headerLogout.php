@@ -12,11 +12,27 @@
         if(isset($_SESSION["language"])){
             switch($_SESSION["language"]) {
                 case "FR" :
-                    include("language/fr.inc");
-                    break;
+                    include("language/fr.inc"); ?>
+                    <style>
+                        .EN{
+                            text-decoration: none;
+                        }
+                        .FR{
+                            text-decoration: underline;
+                        }
+                    </style>
+                    <?php break;
                 case "EN" :
-                    include("language/en.inc");
-                    break;
+                    include("language/en.inc"); ?>
+                    <style>
+                        .EN{
+                            text-decoration: underline;
+                        }
+                        .FR{
+                            text-decoration: none;
+                        }
+                    </style>
+                    <?php break;
             }
         }else{
             include("language/en.inc");
@@ -33,13 +49,13 @@
 <div id ="EN-FR">
     <?php
     if(isset($_GET["page"])){
-        echo "<a href=" . htmlspecialchars("index.php?page=" . $_GET["page"] . "&language=EN") . ">EN</a>";
+        echo "<a class='EN' href=" . htmlspecialchars("index.php?page=" . $_GET["page"] . "&language=EN") . ">EN</a>";
         echo " / ";
-        echo "<a href=" . htmlspecialchars("index.php?page=" . $_GET["page"] . "&language=FR") . ">FR</a>";
+        echo "<a class='FR' href=" . htmlspecialchars("index.php?page=" . $_GET["page"] . "&language=FR") . ">FR</a>";
     } else {
-        echo "<a href=" . htmlspecialchars("index.php?page=connection&language=EN") . ">EN</a>";
+        echo "<a class='EN' href=" . htmlspecialchars("index.php?page=connection&language=EN") . ">EN</a>";
         echo " / ";
-        echo "<a href=" . htmlspecialchars("index.php?page=connection&language=FR") . ">FR</a>";
+        echo "<a class='FR' =" . htmlspecialchars("index.php?page=connection&language=FR") . ">FR</a>";
     }
     ?>
 </div>

@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8" />
     <title>BIG-MAP</title>
-    <link rel="icon" type="image/png" href="/APP_Website/pictures/BigMap_Logo.png"/>
+    <link rel="icon" type="image/png" href="/APP_Website/pictures/Logo BIG-MAP.png"/>
     <script src="https://kit.fontawesome.com/9621ee1f22.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="design/css/globalLogin.css"/>
 </head>
@@ -12,11 +12,27 @@
     if (isset($_SESSION["language"])) {
         switch ($_SESSION["language"]) {
             case "FR" :
-                include("language/fr.inc");
-                break;
+                include("language/fr.inc"); ?>
+                <style>
+                    .EN{
+                        text-decoration: none;
+                    }
+                    .FR{
+                        text-decoration: underline;
+                    }
+                </style>
+                <?php break;
             case "EN" :
-                include("language/en.inc");
-                break;
+                include("language/en.inc"); ?>
+                <style>
+                    .EN{
+                        text-decoration: underline;
+                    }
+                    .FR{
+                        text-decoration: none;
+                    }
+                </style>
+                <?php break;
         }
     } else {
         include("language/en.inc");
@@ -32,13 +48,6 @@
                     <a class="nav-link" href="index.php?page=dashboard">
                         <i class="fas fa-tachometer-alt"></i>
                         <span class="nav-text"> <?php echo _DASHBOARD;?></span>
-                    </a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php?page=calendar">
-                        <i class="fas fa-calendar-alt"></i>
-                        <span class="nav-text"><?php echo _CALENDAR;?></span>
                     </a>
                 </li>
         </div>

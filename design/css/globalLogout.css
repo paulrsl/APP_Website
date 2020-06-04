@@ -10,6 +10,11 @@ html, body {
     color : white;
 }
 
+.page{
+    min-height:720px;
+}
+
+
 a{
     color : white;
 }

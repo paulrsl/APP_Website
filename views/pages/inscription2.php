@@ -4,6 +4,7 @@
 <body>
 <?php include 'views/templates/headerLogout.php'?>
 
+<div class="page">
 <?php if(isset($_SESSION["inscriptionTypeAccess"])){
     if($_SESSION["inscriptionTypeAccess"] == "user"){?>
         <h2 class="subpage"> <?php echo _USER;?><?php echo _INSCRIPTION;?> </h2>
@@ -27,8 +28,7 @@
             <p>
                 <label><?php echo _COMMENT;?>
                     <br>
-                    <textarea name="comment" rows="5" cols="50">
-                    </textarea>
+                    <textarea name="comment" rows="5" cols="50"></textarea>
                 </label>
             </p>
             <br>
@@ -170,6 +170,7 @@
     <h2>
         <a href="index.php?page=connection"><?php echo _BACK;?></a>
     </h2>
+</div>
 
 <?php include 'views/templates/footer.php'?>
 </body>

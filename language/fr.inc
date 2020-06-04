@@ -33,14 +33,14 @@ define("_SCORE","Score");
 
 define("_USERLIST","Liste d'utilisateurs");
 define("_PERFORMTEST","Effectuer un test");
+define("_LASTTEST","Derniers Tests");
 
 define("_MODIFYRESULT","Modifier les résultats");
 define("_MANAGEACCESSRIGHT","Gérer les droits d'accès");
 
 define("_FAQ","FAQ");
-define("_TICKETS","Envoyer un ticket");
+define("_TICKETS","Tickets");
 define("_LOGOUT","Déconnexion");
-
 
 //connection
 
@@ -54,6 +54,10 @@ define("_MESSAGE","Message :");
 //forgot password
 
 define("_FORGOTPASSWORD","Mot de passe oublié ?");
+define("_SENDMAIL", "Envoyez");
+define("_OBJECT", "Objet: Mot de passe oublié");
+define("_SENDER", "Expéditeur : Veuillez entrer votre adresse email");
+define("_MAILSENT", "Votre nouveau mot de passe a été envoyé");
 
 //inscription
 
@@ -88,6 +92,7 @@ define("_ORGANISMTYPE","Type d'organisme");
 define("_DRIVINGSCHOOL","Auto-école");
 define("_ARMY","Armée");
 define("_NGO","ONG");
+
 //404
 
 define("_404","Erreur 404");
@@ -125,6 +130,7 @@ define("_DELETE","Supprimer");
 define("_ADDQUESTION","Ajouter une question/réponse :");
 define("_QUESTION","Question");
 define("_ANSWER","Réponse");
+define("_ANSWER2","Répondre");
 define("_LANGUAGE","Langage");
 
 //user list
@@ -143,7 +149,40 @@ define("_HEARINGTEST","Test d'audition");
 define("_SOUNDREFLEX","Réflexe sonore");
 define("_AVERAGE","Moyenne");
 
+define("_VISUALREFLEXGRAPH", "Courbe réflexe visuel");
+define("_HEARINGTESTGRAPH","Courbe test auditif");
+define("_SOUNDREFLEXGRAPH","Courbe réflexe sonore");
+
 //Test result
 
 define("_VALUE","Valeur");
+define("_DATE","Date");
 define("_TEMPERATURE","Température");
+
+// manage access right
+
+define("_ACCOUNTYPE", "Le compte est actuellement du type: ");
+define("_TYPE","Type");
+
+//Other
+
+define("_PROFILPICTURE","Photo de profil");
+
+//TICKETS
+
+define("_NOTICKET","Pas de tickets envoyés !");
+define("_SEND","Envoyer");
+define("_NOREPLY","Pas de réponse");
+define("_PROCESSED","Traité");
+define("_UNPROCESSED","Non traité");
+define("_SENDON"," envoyé le ");
+define("_RECEIVED","reçu le ");
+
+//PERFORM TEST 2
+define("_TESTPERFORMED","Test terminé");
+define("_TESTINFO","Les données ont été correctement enregistrées");
+
+//AVERAGE
+define("_AVERAGEVISUALSTIMULUS","Moyenne réflexe visuel");
+define("_AVERAGESOUNDSTIMULUS","Moyenne réflexe sonore");
+define("_AVERAGETONE","Moyenne test d'audition");

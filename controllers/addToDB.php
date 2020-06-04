@@ -5,7 +5,7 @@
             case "organism" : addOrganism(); break;
             case "admin" : addAdmin(); break;
         }
-        redirection("connection");
+        header("Location: index.php?page=connection");
     }
 
     function addUser(){
@@ -73,38 +73,17 @@
         return $result;
     }
 
-    function addFAQ(){
-        if(isset($_POST["question"]) && isset($_POST["answer"]) && isset($_POST["language"])) {
-
-            $question = htmlspecialchars($_POST["question"]);
-            $answer = htmlspecialchars($_POST["answer"]);
-            $language = htmlspecialchars($_POST["language"]);
-
-            if (isset($_GET['IDMessage'])) {
-                $idToModify = $_GET['IDMessage'];
-                $db = dbConnect();
-                $req = $db->prepare("UPDATE `faq` SET question=?, answer=?, language=? WHERE id=?");
-                $req->execute(array($question, $answer, $language, $idToModify));
-                $req->closeCursor();
-
-            }else{
-                insertFaq($question, $answer, $language);
-            }
-            header("Location: index.php?page=FAQ");
-        }
-    }
-
     function performTest(){
-        if ($_POST["userID"]){
+        if ($_GET["IDUser"]){
 
-            $userID = htmlspecialchars($_POST["userID"]);
-            $visualResult = generateResults("visualStimulus",15);
-            $soundResult = generateResults("soundStimulus",15);
-            $toneResult = generateResults("tone",10);
+            $userID = htmlspecialchars($_GET["IDUser"]);
+            $visualResults = generateResults("visualStimulus",15);
+            $soundResults = generateResults("soundStimulus",15);
+            $toneResults = generateResults("tone",10);
 
-            insertResult($userID, $visualResult, $soundResult, $toneResult);
+            insertResult($userID, $visualResults, $soundResults, $toneResults);
 
-            redirection("performTest");
+            header("Location: index.php?page=performTest2");
         }
     }
 
@@ -126,3 +105,29 @@
         }
         return $results;
     }
+
+    function addTicket(){
+        if(isset($_POST["question"])){
+            $question = htmlspecialchars($_POST["question"]);
+            $id = $_SESSION["userId"];
+            $status = "new";
+            insertTicket($question, $status, $id);
+            header("Location: index.php?page=tickets");
+        }
+
+    }
+
+function addUserList(){
+    if(isset($_POST["mail"])){
+        $mail = htmlspecialchars($_POST["mail"]);
+        $idPerson=getIdUserMail($mail)->fetchall();
+        $idOrganism=getOrganismId($_SESSION["userId"])->fetchall();
+        modifyUserList($idPerson[0][0], $idOrganism[0][0]);
+        header("Location: index.php?page=userList");
+    }
+
+}
+
+
+
+

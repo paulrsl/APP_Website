@@ -1,8 +1,11 @@
 <?php
+    include_once("index.html");
+
 	require "controllers/redirection.php";
     require "controllers/language.php";
     require "controllers/addToDB.php";
     require "controllers/test.php";
+    require "controllers/manage.php";
     require "models/dbConnect.php";
     require "models/createDB.php";
     require "models/get.php";
@@ -21,8 +24,19 @@
         switch ($action){
             case "addPerson" : addPerson(); break;
             case "tryConnection" : tryConnection(); break;
-            case "addFAQ" : addFAQ(); break;
+            case "manageFAQ" : manageFAQ(); break;
             case "performTest" : performTest(); break;
+            case "deleteMessageFAQ" : deleteMessageFAQ(); break;
+            case "deleteAccessRight" : deleteAccessRight(); break;
+            case "manageProfil" : manageProfil(); break;
+            case "modifyAccessRight" : manageAccessRight(); break;
+            case "mailForgotPassword" : mailForgotPassword(); break;
+            case "addTicket" : addTicket(); break;
+            case "deleteMessageTickets" : deleteMessageTickets(); break;
+            case "manageTickets" : manageTickets(); break;
+            case "deleteUserList" : deleteUserList(); break;
+            case "addUserList" : addUserList(); break;
+
 
             default : redirection("connection");
         }

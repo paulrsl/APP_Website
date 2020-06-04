@@ -4,18 +4,20 @@
 <body>
 <?php include 'views/templates/headerLogout.php'?>
 
-<h2 class="subpage"><?php echo _GTU;?></h2>
+<div class="page">
+    <h2 class="subpage"><?php echo _GTU;?></h2>
 
-<?php
-    $text = getGTU($_SESSION["language"])->fetchAll();
-    foreach ($text as $value){
-        ?>
-        <p> <?= $value["text"]; ?> </p>
-    <?php } ?>
-<h2>
-    <a href="index.php?page=inscription"><?php echo _BACK;?></a>
-</h2>
-<br>
+    <?php
+        $text = getGTU($_SESSION["language"])->fetchAll();
+        foreach ($text as $value){
+            ?>
+            <p> <?= $value["text"]; ?> </p>
+        <?php } ?>
+    <h2>
+        <a href="index.php?page=inscription"><?php echo _BACK;?></a>
+    </h2>
+    <br>
+</div>
 
 <?php include 'views/templates/footer.php'?>
 </body>

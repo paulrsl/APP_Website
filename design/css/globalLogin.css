@@ -58,7 +58,7 @@ h3{ /* titre sous-menu */
     background-color: whitesmoke;
     display:flex;
     align-items : center;
-    justify-content : end;
+    justify-content : flex-end;
     letter-spacing: 1px;
     box-shadow: 0px 0px 40px rgba(44, 62, 80, 0.26);
 }
@@ -78,10 +78,6 @@ h3{ /* titre sous-menu */
     color : #707070;
     font-size : 24px;
     font-weight: bold;
-}
-
-.underline{
-    text-decoration: underline;
 }
 
 /*MAIN-NAV*/
@@ -151,6 +147,10 @@ h3{ /* titre sous-menu */
     color:#50b012;
 }
 
+#userList{
+    padding: 5px;
+}
+
 #userType{
     padding: 30px 30px 40px;
     position : fixed;
@@ -214,6 +214,10 @@ input[type=checkbox]{
     margin-right: auto;
 }
 
+.leftButton{
+    margin-left: unset;
+}
+
 /*CONTENT*/
 
 .page{
@@ -252,6 +256,8 @@ input[type=checkbox]{
     padding:5px;
 }
 
+
+
 /*FAQ*/
 
 .faq-list{
@@ -289,9 +295,11 @@ input[type=checkbox]{
 
 /*MANAGE ACCESS RIGHT*/
 
-#userList{
-    padding:5px;
+#manageTable td,th{
+    padding:5px 20px;
+    text-align: left;
 }
+
 
 /*SCORE*/
 
@@ -335,7 +343,7 @@ input[type=checkbox]{
     padding:15px;
 }
 
-table {
+.result{
     width:50%;
     border-collapse: collapse;
     text-align: left;
@@ -343,26 +351,174 @@ table {
 
 #soundReflexTable th{
     padding:10px;
-    background-color: #FFDF00;
+    background-color: #B532CA;
     color:white;
 }
 
 #visualReflexTable th{
     padding:10px;
-    background-color: #56D45E;
+    background-color: #D80909;
     color:white;
 }
 
 #hearingTestTable th{
     padding:10px;
-    background-color: #B532CA;
+    background-color: #FFDF00;
     color:white;
 }
 
-td {
+.result td {
     padding:10px;
 }
 
-tr:nth-child(even) {
+.result tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+.calendar {
+    border:1px solid black;
+    padding:1px;
+    background-color:#4594ff;
+    width:250px;
+    margin:auto;
+    height:200px;
+}
+
+.calendar th {
+    border:1px solid black;
+    color:white;
+}
+
+.calendar td {
+    border:1px solid black;
+    background-color:#ffffff;
+    text-align:center;
+}
+
+.todayCalendar{
+    color:#ff0000;
+}
+
+/*TICKETS*/
+
+.status{
+    font-size:16px;
+    padding:4px 8px;
+    margin-right: 20px;
+    text-align : center;
+    border-radius : 10px;
+    border : 0px;
+    background-color: #f2f2f2;
+    display:inline;
+}
+
+.status .fas{
+    margin-right: 0px;
+}
+
+.fa-check-circle{
+    color:#27a600ff;
+}
+
+.fa-times-circle{
+    color : #e00000ff;
+}
+
+.date{
+    font-size:16px;
+    font-style:normal;
+    text-align: right;
+    padding-right: 10px;
+}
+
+/*USER TABLE*/
+
+#userTable{
+    border-collapse: collapse;
+}
+
+#userTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#userQuestion{
+    padding: 10px;
+    color: #49C7FA;
+    font-style: italic;
+    font-size:20px;
+}
+
+#userAnswer{
+    padding: 10px 10px 10px 20px;
+    color : #707070;
+}
+
+/*ADMIN TABLE*/
+
+#adminTable{
+    border-collapse: collapse;
+}
+
+#adminQuestion{
+    color: #49C7FA;
+    font-style: italic;
+    font-size:20px;
+    padding-right: 10px;
+    max-width: 500px;
+}
+
+#adminAnswer{
+    color : #707070;
+    padding-bottom:25px;
+    padding-left: 20px;
+}
+
+#nomPrenom{
+    font-size: 20px;
+    vertical-align: center;
+}
+
+#nomPrenom .fas{
+    margin-right: 10px;
+    font-size: 25px;
+    color :#707070;
+}
+
+#answerButton{
+    padding-top: 10px;
+}
+
+/*DASHBOARD TICKETS*/
+
+.dashboard #adminQuestion {
+    padding-bottom: 20px;
+    max-width: 400px;
+}
+
+#performTestButton{
+    width:max-content;
+}
+
+#resultTable {
+    border-collapse: collapse;
+}
+
+#resultTable td,th{
+    padding:5px 20px;
+    text-align: left;
+}
+
+#resultTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+

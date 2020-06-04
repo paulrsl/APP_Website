@@ -4,32 +4,34 @@
 <body>
 <?php include 'views/templates/headerLogout.php'?>
 
-<h2 class="subpage"><?php echo _CONTACTUS;?></h2>
+<div class="page">
+    <h2 class="subpage"><?php echo _CONTACTUS;?></h2>
 
-<form method="post" action="index.php?action=sendMessage" enctype="multipart/form-data">
+    <form method="post" action="index.php?action=sendMessage" enctype="multipart/form-data">
 
-    <p>
-        <label><?php echo _MAIL;?> :<br>
-            <input class ="userInput" type='email' name="mail" placeholder="<?php echo _MAIL;?>" required>
-        </label>
-    </p>
+        <p>
+            <label><?php echo _MAIL;?> :<br>
+                <input class ="userInput" type='email' name="mail" placeholder="<?php echo _MAIL;?>" required>
+            </label>
+        </p>
 
-    <p>
-        <label><?php echo _MESSAGE;?>
-            <br>
-            <textarea name="message" rows="5" cols="50">
+        <p>
+            <label><?php echo _MESSAGE;?>
+                <br>
+                <textarea name="message" rows="5" cols="50">
 
-            </textarea>
-        </label>
-    </p>
+                </textarea>
+            </label>
+        </p>
 
-    <input class="userInput blueButton" type="submit" value="<?php echo _SUBMIT;?>" >
+        <input class="userInput blueButton" type="submit" value="<?php echo _SUBMIT;?>" >
 
-</form>
+    </form>
 
-<h2>
-    <a href="index.php?page=connection"><?php echo _BACK;?></a>
-</h2>
+    <h2>
+        <a href="index.php?page=connection"><?php echo _BACK;?></a>
+    </h2>
+</div>
 
 <?php include 'views/templates/footer.php'?>
 </body>
