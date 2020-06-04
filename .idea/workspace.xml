@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11cce8d4-a384-4f60-a240-fdfe85f3c4d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" afterPath="$PROJECT_DIR$/language/en.inc" afterDir="false" />
-    </list>
+    <list default="true" id="11cce8d4-a384-4f60-a240-fdfe85f3c4d4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cgCjTmgnAvhIesm6TU96eStBLs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
