@@ -61,7 +61,7 @@ define("_MAILSENT", "Your new password has been sent");
 
 //inscription
 
-define("_INSCRIPTION","Inscription");
+define("_INSCRIPTION","Sign up");
 define("_FIRSTNAME","First name");
 define("_LASTNAME","Last name");
 define("_REGISTERON","Register on");
@@ -171,7 +171,7 @@ define("_PROFILPICTURE","Profil picture");
 //TICKETS
 
 define("_NOTICKET","No tickets send !");
-define("_SEND","Envoyer");
+define("_SEND","Sent");
 define("_NOREPLY","No reply");
 define("_PROCESSED","Processed");
 define("_UNPROCESSED","Unprocessed");
