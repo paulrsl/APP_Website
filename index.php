@@ -1,5 +1,4 @@
 <?php
-    include_once("index.html");
 
 	require "controllers/redirection.php";
     require "controllers/language.php";
