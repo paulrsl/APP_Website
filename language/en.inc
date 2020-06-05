@@ -11,14 +11,16 @@ define("_CONNECTION","Connection");
 
 //header logout
 
-define("_WELCOME","Welcome to the BIG-MAP website !");
+define("_WELCOME","Welcome to the Infinite Measures website !");
 
 //header login
 
 define("_MYPROFIL","My profil");
+define("_ACCOUNTNOTCONFIRMED", " Your account has not been confirmed yet");
 
 //footer
 
+define("_LEGALNOTICE","Copyright, site created by BIG-MAP, legal notices, 2020.");
 define("_COPYRIGHT","©TEAM BIGMAP <br> Proposed by Infinite Measure and developed by the company BIGMAP® / APP / Copyright ©2020");
 
 //main-nav
@@ -32,6 +34,7 @@ define("_SCORE","Score");
 
 define("_USERLIST","User list");
 define("_PERFORMTEST","Perform a test");
+define("_LASTTEST","Last Tests");
 
 define("_MODIFYRESULT","Modify result");
 define("_MANAGEACCESSRIGHT","Manage access right");
@@ -52,6 +55,10 @@ define("_MESSAGE","Message :");
 //forgot password
 
 define("_FORGOTPASSWORD","Forgot password ?");
+define("_SENDMAIL", "Send");
+define("_OBJECT", "Object: Forgot password");
+define("_SENDER", "Sender: Please enter your email address");
+define("_MAILSENT", "Your new password has been sent");
 
 //inscription
 
@@ -86,7 +93,6 @@ define("_ORGANISMTYPE","Organism type");
 define("_DRIVINGSCHOOL","Driving school");
 define("_ARMY","Army");
 define("_NGO","NGO");
-
 
 //404
 
@@ -125,6 +131,7 @@ define("_DELETE","Delete");
 define("_ADDQUESTION","Add a question/answer :");
 define("_QUESTION","Question");
 define("_ANSWER","Answer");
+define("_ANSWER2","Answer");
 define("_LANGUAGE","Language");
 
 //user list
@@ -134,8 +141,8 @@ define("_USERID","User id");
 
 //Score
 
-define("_SCORECOMMENTUSER","My average score compared to the general average:");
-define("_SCORECOMMENTORGANISM","Average score of my organization compared to other organizations:");
+define("_SCORECOMMENTUSER","My average score compared to the average of my organization:");
+define("_SCORECOMMENTORGANISM","Average score of my organization compared to the general average:");
 
 define("_HEARTBEAT","Heartbeat");
 define("_VISUALREFLEX","Visual reflex");
@@ -143,7 +150,40 @@ define("_HEARINGTEST","Hearing test");
 define("_SOUNDREFLEX","Sound reflex");
 define("_AVERAGE","Average");
 
+define("_VISUALREFLEXGRAPH", "Visual reflex curve");
+define("_HEARINGTESTGRAPH","Hearing test curve");
+define("_SOUNDREFLEXGRAPH","Sound reflex curve");
+
 //Test result
 
 define("_VALUE","Value");
+define("_DATE","Date");
 define("_TEMPERATURE","Temperature");
+
+// manage access right
+
+define("_ACCOUNTYPE", "The account is currently of type: ");
+define("_TYPE","Type");
+
+//Other
+
+define("_PROFILPICTURE","Profil picture");
+
+//TICKETS
+
+define("_NOTICKET","No tickets send !");
+define("_SEND","Envoyer");
+define("_NOREPLY","No reply");
+define("_PROCESSED","Processed");
+define("_UNPROCESSED","Unprocessed");
+define("_SENDON"," send on ");
+define("_RECEIVED","received on ");
+
+//PERFORM TEST 2
+define("_TESTPERFORMED","Test Performed");
+define("_TESTINFO","Data has been correctly saved");
+
+//AVERAGE
+define("_AVERAGEVISUALSTIMULUS","Average visual reflex");
+define("_AVERAGESOUNDSTIMULUS","Average sound reflex");
+define("_AVERAGETONE","Average hearing test");

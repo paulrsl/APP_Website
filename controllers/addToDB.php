@@ -2,15 +2,15 @@
     function addPerson() {
         switch($_SESSION["inscriptionTypeAccess"]){
             case "user" : addUser(); break;
-            case "organism" : addOrganism(); break;
-            case "admin" : addAdmin(); break;
+            case "organismNoConfirmed" : addOrganism(); break;
+            case "adminNoConfirmed" : addAdmin(); break;
         }
-        redirection("connection");
+        header("Location: index.php?page=connection");
     }
 
     function addUser(){
         if($_POST["sex"] && $_POST["birthdate"]){
-            insertPerson($_SESSION["inscriptionFirstname"], $_SESSION["inscriptionLastname"], $_SESSION["inscriptionMail"], $_SESSION["inscriptionTypeAccess"], $_SESSION["inscriptionLanguage"], $_SESSION["inscriptionPassword"]);
+            insertPerson($_SESSION["inscriptionFirstname"], $_SESSION["inscriptionLastname"], $_SESSION["inscriptionMail"], $_SESSION["inscriptionTypeAccess"], $_SESSION["inscriptionLanguage"], password_hash($_SESSION["inscriptionPassword"], PASSWORD_BCRYPT));
 
             $personId = getLastId("person")->fetchAll();;
             $id = $personId[0][0]; //Transforme la valeur du tableau en string
@@ -33,7 +33,7 @@
 
     function addOrganism(){
         if($_POST["organismName"] && $_POST["contactMail"] && $_POST["address"] && $_POST["country"] && $_POST["city"] && $_POST["postalCode"] && $_POST["phone"] && $_POST["organismType"]){
-            insertPerson($_SESSION["inscriptionFirstname"], $_SESSION["inscriptionLastname"], $_SESSION["inscriptionMail"], $_SESSION["inscriptionTypeAccess"], $_SESSION["inscriptionLanguage"], $_SESSION["inscriptionPassword"]);
+            insertPerson($_SESSION["inscriptionFirstname"], $_SESSION["inscriptionLastname"], $_SESSION["inscriptionMail"], $_SESSION["inscriptionTypeAccess"], $_SESSION["inscriptionLanguage"], password_hash($_SESSION["inscriptionPassword"], PASSWORD_BCRYPT));
 
             $personId = getLastId("person")->fetchAll();;
             $id = $personId[0][0]; //Transforme la valeur du tableau en string
@@ -53,9 +53,9 @@
     }
 
     function addAdmin(){
-        insertPerson($_SESSION["inscriptionFirstname"], $_SESSION["inscriptionLastname"], $_SESSION["inscriptionMail"], $_SESSION["inscriptionTypeAccess"], $_SESSION["inscriptionLanguage"], $_SESSION["inscriptionPassword"]);
+        insertPerson($_SESSION["inscriptionFirstname"], $_SESSION["inscriptionLastname"], $_SESSION["inscriptionMail"], $_SESSION["inscriptionTypeAccess"], $_SESSION["inscriptionLanguage"], password_hash($_SESSION["inscriptionPassword"], PASSWORD_BCRYPT));
 
-        $personId = getLastId("person")->fetchAll();;
+        $personId = getLastId("person")->fetchAll();
         $id = $personId[0][0]; //Transforme la valeur du tableau en string
 
         insertAdmin($id);
@@ -73,38 +73,17 @@
         return $result;
     }
 
-    function addFAQ(){
-        if(isset($_POST["question"]) && isset($_POST["answer"]) && isset($_POST["language"])) {
-
-            $question = htmlspecialchars($_POST["question"]);
-            $answer = htmlspecialchars($_POST["answer"]);
-            $language = htmlspecialchars($_POST["language"]);
-
-            if (isset($_GET['IDMessage'])) {
-                $idToModify = $_GET['IDMessage'];
-                $db = dbConnect();
-                $req = $db->prepare("UPDATE `faq` SET question=?, answer=?, language=? WHERE id=?");
-                $req->execute(array($question, $answer, $language, $idToModify));
-                $req->closeCursor();
-
-            }else{
-                insertFaq($question, $answer, $language);
-            }
-            header("Location: index.php?page=FAQ");
-        }
-    }
-
     function performTest(){
-        if ($_POST["userID"]){
+        if ($_GET["IDUser"]){
 
-            $userID = htmlspecialchars($_POST["userID"]);
-            $visualResult = generateResults("visualStimulus",15);
-            $soundResult = generateResults("soundStimulus",15);
-            $toneResult = generateResults("tone",10);
+            $userID = htmlspecialchars($_GET["IDUser"]);
+            $visualResults = generateResults("visualStimulus",15);
+            $soundResults = generateResults("soundStimulus",15);
+            $toneResults = generateResults("tone",10);
 
-            insertResult($userID, $visualResult, $soundResult, $toneResult);
+            insertResult($userID, $visualResults, $soundResults, $toneResults);
 
-            redirection("performTest");
+            header("Location: index.php?page=performTest2");
         }
     }
 
@@ -126,3 +105,35 @@
         }
         return $results;
     }
+
+    function addTicket(){
+        if(isset($_POST["question"])){
+            $question = htmlspecialchars($_POST["question"]);
+            $id = $_SESSION["userId"];
+            $status = "new";
+            insertTicket($question, $status, $id);
+            header("Location: index.php?page=tickets");
+        }
+
+    }
+
+function addUserList(){
+    if(isset($_POST["mail"])){
+        $mail = htmlspecialchars($_POST["mail"]);
+        $idPerson=getIdUserMail($mail)->fetchall();
+        $idOrganismTest=getOrganismPersonId((int)$idPerson[0][0])->fetchAll();
+
+        if($idOrganismTest[0][0]==null){
+            $idOrganism=getOrganismId($_SESSION["userId"])->fetchall();
+            modifyUserList($idPerson[0][0], $idOrganism[0][0]);
+        }
+
+        redirection("userList");
+        /*header("Location: index.php?page=userList");*/
+    }
+
+}
+
+
+
+

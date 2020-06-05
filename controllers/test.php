@@ -9,26 +9,28 @@
 
             $connection = true;
             foreach ($person as $user) {
-                if($mailConnection == $user["mail"] && $passwordConnection == $user["password"]){
+                if($mailConnection == $user["mail"] && password_verify($passwordConnection, $user["password"])){
                     session_destroy();
                     session_start();
                     $_SESSION["userId"] = $user["id"];
+                    $_SESSION["userMail"] = $user["mail"];
                     $_SESSION["userFirstName"] = $user["firstName"];
                     $_SESSION["userLastName"] = $user["lastName"];
                     $_SESSION["userLanguage"] = $user["language"];
                     $_SESSION["userTypeAccess"] = $user["typeAccess"];
                     $_SESSION["userPicture"] = $user["picture"];
                     $connection = false;
-                    redirection("dashboard");
+                    language($user["language"]);
+                    header("Location: index.php?page=dashboard");
                     break;
                 }
             }
             if($connection){
                 echo "Mail ou mot de passe incorrect !";
-                redirection("connection");
+                header("Location: index.php?page=connection");
             }
         } else {
-            redirection("connection");
+            header("Location: index.php?page=connection");
         }
     }
 
@@ -48,7 +50,7 @@
             foreach ($person as $user) {
                 if($mail == $user["mail"]){ //Vérification si l'adresse mail existe déjà ou non
                     echo 'Adress mail is already exist';
-                    redirection("inscription");
+                    header("Location: index.php?page=inscription");
                     $exist = true;
                     break;
                 }
@@ -64,15 +66,22 @@
             }
 
         } else {
-            redirection("inscription");
+            header("Location: index.php?page=inscription");
         }
     }
 
-function delete(){
-    deleteMessageFAQ();
-    redirection("FAQ");
-}
+    function avg($list){
+        $sum = 0;
+        for($i=0; $i<sizeof($list); $i++){
+            $sum += $list[$i];
+        }
+        if(sizeof($list) != 0){
+            return $sum/sizeof($list);
+        }else{
+            return 0;
+        }
 
 
+    }
 
 

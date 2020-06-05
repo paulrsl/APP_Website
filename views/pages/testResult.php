@@ -9,19 +9,29 @@
     <div class="container">
         <h2 class="subpage"><?php echo _TESTRESULT;?></h2>
 
-        <a href="index.php?page=heartBeat">
-            <img  src="pictures/Rythme-cardiaque-2.png" class="resultIcon" alt="Rythme-cardiaque-2"/>
-        </a>
-        <a href="index.php?page=visualReflex">
-            <img src="pictures/Reflexe-visuel-2.png" class="resultIcon" alt="Reflexe-visuel-2"/>
-        </a>
-        <br>
-        <a href="index.php?page=hearingTest">
-            <img src="pictures/Test-audition-2.png" class="resultIcon" alt="Test-audition-2"/>
-        </a>
-        <a href="index.php?page=soundReflex">
-            <img src="pictures/Reflexe-sonore-2.png" class="resultIcon" alt="Reflexe-sonore-2"/>
-        </a>
+        <?php if ($_SESSION["language"] == 'FR') {?>
+            <a href="index.php?page=visualReflex">
+                <img src="pictures/FR/Visual-reflex-2.png" class="testIcon" alt="Reflexe-visuel-2"/>
+            </a>
+            <a href="index.php?page=soundReflex">
+                <img src="pictures/FR/Sound-reflex-2.png" class="testIcon" alt="Reflexe-sonore-2"/>
+            </a>
+            <a href="index.php?page=hearingTest">
+                <img src="pictures/FR/Hearing-test-2.png" class="testIcon" alt="Test-audition-2"/>
+            </a>
+        <?php }?>
+
+        <?php if ($_SESSION["language"] == 'EN') {?>
+            <a href="index.php?page=visualReflex">
+                <img src="pictures/EN/Visual-reflex-2.png" class="testIcon" alt="Visual-reflex-2"/>
+            </a>
+            <a href="index.php?page=soundReflex">
+                <img src="pictures/EN/Sound-reflex-2.png" class="testIcon" alt="Sound-reflex-2"/>
+            </a>
+            <a href="index.php?page=hearingTest">
+                <img src="pictures/EN/Hearing-test-2.png" class="testIcon" alt="Hearing-test-2"/>
+            </a>
+        <?php }?>
 
         <?php
         if(isset($_SESSION["userTypeAccess"])){?>

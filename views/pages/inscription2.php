@@ -4,6 +4,7 @@
 <body>
 <?php include 'views/templates/headerLogout.php'?>
 
+<div class="page">
 <?php if(isset($_SESSION["inscriptionTypeAccess"])){
     if($_SESSION["inscriptionTypeAccess"] == "user"){?>
         <h2 class="subpage"> <?php echo _USER;?><?php echo _INSCRIPTION;?> </h2>
@@ -27,8 +28,7 @@
             <p>
                 <label><?php echo _COMMENT;?>
                     <br>
-                    <textarea name="comment" rows="5" cols="50">
-                    </textarea>
+                    <textarea name="comment" rows="5" cols="50"></textarea>
                 </label>
             </p>
             <br>
@@ -94,7 +94,7 @@
             <input class="userInput blueButton" type="submit" value="<?php echo _SUBMIT;?>" >
         </form>
 
-    <?php }elseif($_SESSION["inscriptionTypeAccess"] == "organism"){ ?>
+    <?php }elseif($_SESSION["inscriptionTypeAccess"] == "organismNoConfirmed"){ ?>
         <h2 class="subpage"><?php echo _ORGANISM;?><?php echo _INSCRIPTION;?></h2>
         <form method="post" action="index.php?action=addPerson" enctype="multipart/form-data">
 
@@ -154,7 +154,7 @@
             <input class="userInput blueButton" type="submit" value="<?php echo _SUBMIT;?>" >
         </form>
 
-    <?php }elseif($_SESSION["inscriptionTypeAccess"] == "admin"){ ?>
+    <?php }elseif($_SESSION["inscriptionTypeAccess"] == "adminNoConfirmed"){ ?>
         <h2 class="subpage"><?php echo _ADMIN;?><?php echo _INSCRIPTION;?></h2>
         <form method="post" action="index.php?action=addPerson" enctype="multipart/form-data">
             <br>
@@ -170,6 +170,7 @@
     <h2>
         <a href="index.php?page=connection"><?php echo _BACK;?></a>
     </h2>
+</div>
 
 <?php include 'views/templates/footer.php'?>
 </body>

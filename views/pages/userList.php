@@ -15,11 +15,24 @@
                 <?php
                 $id = getOrganismId($_SESSION["userId"])->fetchAll();
                 if(empty($id) == false){ ?>
+                    <form method="post" action="index.php?action=addUserList" enctype="multipart/form-data">
+                        <p>
+                            <label><?php echo _MAIL;?> :<br>
+                                <input class="userInput" type='email' name="mail" placeholder="<?php echo _MAIL;?>" required>
+                            </label>
+                        </p>
+                        <input class="bigButton leftButton" type="submit" value="<?php echo _SUBMIT;?>" ></br></br>
+                    </form>
+
                     <ul>
                     <?php $users = getUserInOrganism($id[0][0])->fetchAll();
                     foreach ($users as $user){?>
-                        <li><?= $user["mail"]?></li>
+                        <li id="userList"><?= $user["mail"]?>
+                            <a href="index.php?action=deleteUserList&amp;IDMessage=<?= $user['id'] ?>" class='smallButton'><?php echo _DELETE?></a>
+                        </li>
+
                     <?php } ?>
+
                     </ul>
                 <?php }else{ echo _NOMEMBER; } ?>
 

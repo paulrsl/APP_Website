@@ -5,13 +5,13 @@
             <div id="EN-FR">
                 <?php
                 if(isset($_GET["page"])){
-                    echo "<a class='underline' href=" . htmlspecialchars("index.php?page=" . $_GET["page"] . "&language=EN") . ">EN</a>";
+                    echo "<a class='EN' href=" . htmlspecialchars("index.php?page=" . $_GET["page"] . "&language=EN") . ">EN</a>";
                     echo " / ";
-                    echo "<a class='underline' href=" . htmlspecialchars("index.php?page=" . $_GET["page"] . "&language=FR") . ">FR</a>";
+                    echo "<a class='FR' href=" . htmlspecialchars("index.php?page=" . $_GET["page"] . "&language=FR") . ">FR</a>";
                 } else {
-                    echo "<a class='underline' href=" . htmlspecialchars("index.php?page=dashboard&language=EN") . ">EN</a>";
+                    echo "<a class='EN' href=" . htmlspecialchars("index.php?page=dashboard&language=EN") . ">EN</a>";
                     echo " / ";
-                    echo "<a class='underline' href=" . htmlspecialchars("index.php?page=dashboard&language=FR") . ">FR</a>";
+                    echo "<a class='FR' href=" . htmlspecialchars("index.php?page=dashboard&language=FR") . ">FR</a>";
                 }
                 ?>
             </div>
@@ -25,7 +25,10 @@
                         <i id="profilIcon" class="fas fa-user-circle"></i>
                     </a>
 
-                <?php }else{
+                <?php }elseif($_SESSION["userTypeAccess"] == "adminNoConfirmed" || $_SESSION["userTypeAccess"] == "organismNoConfirmed") {
+                    echo _ACCOUNTNOTCONFIRMED;
+                }else
+                {
                     include 'views/templates/accessDeny.php';
                 }
             }else{

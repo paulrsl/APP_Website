@@ -94,6 +94,16 @@
     function insertResult($id, $visual, $sound, $tone){
         $db = dbConnect();
 
+        $visualAvg = (int)avg($visual[0]);
+        $soundAvg = (int)avg($sound[0]);
+        $toneAvg = (int)avg($tone[0]);
+        $temperatureVisualAvg = (int)avg($visual[2]);
+        $heartBeatVisualAvg = (int)avg($visual[1]);
+        $temperatureSoundAvg = (int)avg($sound[2]);
+        $heartBeatSoundAvg = (int)avg($sound[1]);
+        $temperatureToneAvg = (int)avg($tone[2]);
+        $heartBeatToneAvg = (int)avg($tone[1]);
+
         if($visual != null){
             $testIdVisual = getLastIdTest("testvisualstimulus")->fetchAll()[0][0];
             if($testIdVisual == null){
@@ -152,11 +162,37 @@
             $testIdTone = null;
         }
 
-        $req = $db->prepare("INSERT INTO results(userId, idTone, idVisualStimulus, idSoundStimulus) VALUES(:userId, :idTone, :idVisualStimulus, :idSoundStimulus)");
+        $req = $db->prepare("INSERT INTO results(userId, idTone, idVisualStimulus, idSoundStimulus, averageTone, averageVisualStimulus, 
+averageSoundStimulus, averageVisualTemperature, averageVisualHeartBeat, averageSoundTemperature, averageSoundHeartBeat, averageToneTemperature, averageToneHeartBeat) VALUES(:userId, :idTone, :idVisualStimulus, :idSoundStimulus, 
+:averageTone, :averageVisualStimulus, :averageSoundStimulus, :averageVisualTemperature, :averageVisualHeartBeat, :averageSoundTemperature, :averageSoundHeartBeat, :averageToneTemperature, :averageToneHeartBeat)");
+
         $req->bindParam("userId",$id);
         $req->bindParam("idTone",$testIdTone);
         $req->bindParam("idVisualStimulus",$testIdVisual);
         $req->bindParam("idSoundStimulus",$testIdSound);
+        $req->bindParam("averageTone",$toneAvg);
+        $req->bindParam("averageVisualStimulus",$visualAvg);
+        $req->bindParam("averageSoundStimulus",$soundAvg);
+        $req->bindParam("averageVisualTemperature",$temperatureVisualAvg);
+        $req->bindParam("averageVisualHeartBeat",$heartBeatVisualAvg);
+        $req->bindParam("averageSoundTemperature",$temperatureSoundAvg);
+        $req->bindParam("averageSoundHeartBeat",$heartBeatSoundAvg);
+        $req->bindParam("averageToneTemperature",$temperatureToneAvg);
+        $req->bindParam("averageToneHeartBeat",$heartBeatToneAvg);
+
+        $req->execute();
+        $req->closeCursor();
+    }
+
+    function insertTicket($question, $status, $id){
+        $db = dbConnect();
+
+        $req = $db->prepare("INSERT INTO tickets(question, status, userId) VALUES(:question, :status, :userId)");
+
+        $req->bindParam("question", $question);
+        $req->bindParam("status", $status);
+        $req->bindParam("userId", $id);
+
 
         $req->execute();
         $req->closeCursor();
