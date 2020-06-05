@@ -1,14 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43107511-331d-43d4-8435-b29d2e588557" name="Default Changelist" comment="" />
+    <list default="true" id="33d579a4-87da-4917-95ba-473f2ba13c98" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/APP_Website.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maquette Website APP.xd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/addToDB.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/language.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/redirection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/JavaScript/connectionJS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/JavaScript/forgotPasswordJS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/JavaScript/homeJS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/JavaScript/inscription.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/JavaScript/inscriptionJS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/globalLogin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/globalLogout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/en.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/language/fr.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/createDB.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dbConnect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/delete.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/get.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/insert.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/BigMap_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/CIMG0146.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/InfiniteMesures_Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Logo BIG-MAP.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Reflexe-sonore-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Reflexe-sonore-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Reflexe-visuel-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Reflexe-visuel-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Rythme-cardiaque-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Rythme-cardiaque-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Test-audition-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/Test-audition-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/defaultPicture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/profilPicture/defaultPicture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/trophy-solid-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/trophy-solid-purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/trophy-solid-red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pictures/trophy-solid-yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/404.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/FAQ.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/GTU.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/calendar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/connection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/contactUs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/contactUs2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/dashboard.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/forgotPassword.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/hearingTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/heartBeat.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/inscription.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/inscription2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/manageAccessRight.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/modifyResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/myProfil.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/performTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/presentation.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/score.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/soundReflex.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/testResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/tickets.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/userList.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/pages/visualReflex.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates/accessDeny.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates/headerLogin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates/headerLogout.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/templates/main-nav.php" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/package/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -16,16 +92,14 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Max" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1bCvUbd2k6gIBEAp8xSaEIuQhJ1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ctyHl2Dy7ySENCshpdEDMFgDEy" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -39,77 +113,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="controller.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/APP_Website/controllers/controller.php" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.controller.php" />
-        <item itemvalue="JavaScript Debug.controller.php" />
-        <item itemvalue="JavaScript Debug.controller.php" />
-        <item itemvalue="JavaScript Debug.controller.php" />
-        <item itemvalue="JavaScript Debug.controller.php" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="92c12f3d-2baa-4166-8d14-84f5ad64a1f4" name="Default Changelist" comment="" />
-      <created>1588148906352</created>
+      <changelist id="33d579a4-87da-4917-95ba-473f2ba13c98" name="Default Changelist" comment="" />
+      <created>1591362098665</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588148906352</updated>
-      <workItem from="1588148907560" duration="64000" />
-      <workItem from="1588148972604" duration="5774000" />
-      <workItem from="1588166286028" duration="1342000" />
-      <workItem from="1588232559500" duration="1200000" />
-      <workItem from="1588252443600" duration="3285000" />
-      <workItem from="1588429186951" duration="570000" />
-      <workItem from="1588514345058" duration="10967000" />
-      <workItem from="1588589212134" duration="31000" />
-      <workItem from="1588590746589" duration="2010000" />
-      <workItem from="1588663836067" duration="5622000" />
+      <updated>1591362098665</updated>
+      <workItem from="1591362101891" duration="531000" />
     </task>
-    <task id="LOCAL-00001" summary="Version propre de la branche Max">
-      <created>1588149431860</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1588149431860</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Version propre de la branche Max">
-      <created>1588149658992</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1588149658992</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Ajout de la supression dans la FAQ">
-      <created>1588429553459</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1588429553459</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Quelqies améliorations à la suppression FAQ">
-      <created>1588514521411</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1588514521411</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Quelqies améliorations à la suppression FAQ">
-      <created>1588682005085</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1588682005085</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,18 +135,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version propre de la branche Max" />
-    <MESSAGE value="Ajout de la supression dans la FAQ" />
-    <MESSAGE value="Quelqies améliorations à la suppression FAQ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Quelqies améliorations à la suppression FAQ" />
   </component>
 </project>
